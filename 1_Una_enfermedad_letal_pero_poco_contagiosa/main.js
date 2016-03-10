@@ -90,7 +90,7 @@ d3.xml("1b_copia.svg", "image/svg+xml", function(error, xml) {
   d3.select('.labelV').text(iJS._("VIRUS:"));
   d3.select('.labelL').text(iJS._("Letalidad"));
   d3.select('.labelN1').text(iJS._("número promedio de personas"));
-  d3.select('.labelN1').text(iJS._("que un enfermo puede infectar"));
+  d3.select('.labelN2').text(iJS._("que un enfermo puede infectar"));
   d3.select('.labelT').text(iJS._("Transmisión"));
   d3.selectAll("text.hiv,text.viruela,text.mers,text.sars,text.influenza,text.polio,text.sarampion,text.varicela,text.ebola")
     .each(function(d,i){
