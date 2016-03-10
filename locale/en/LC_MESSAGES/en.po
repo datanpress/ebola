@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-03-10 11:26+0100\n"
+"PO-Revision-Date: 2016-03-10 11:26+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ../../../1_Una_enfermedad_letal_pero_poco_contagiosa\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: main.js:14
+msgid "Ébola"
+msgstr ""
+
+#: main.js:15
+msgid "Ébola (brote 2014)"
+msgstr ""
+
+#: main.js:18
+msgid "Contacto con fluidos corporales"
+msgstr ""
+
+#: main.js:21 main.js:22
+msgid "HIV"
+msgstr ""
+
+#: main.js:23
+msgid "80-90% (si no tratado)"
+msgstr ""
+
+#: main.js:25
+msgid "Transmisión sexual, sangre, leche materna"
+msgstr ""
+
+#: main.js:28
+msgid "Viruela"
+msgstr ""
+
+#: main.js:29
+msgid "Viruela (Formalmente erradicada en 1977)"
+msgstr ""
+
+#: main.js:32 main.js:74 main.js:81
+msgid "Aire"
+msgstr ""
+
+#: main.js:35 main.js:36
+msgid "MERS"
+msgstr ""
+
+#: main.js:39
+msgid "Contacto cercano, no se sabe con certeza"
+msgstr ""
+
+#: main.js:42 main.js:43
+msgid "SARS"
+msgstr ""
+
+#: main.js:46 main.js:53 main.js:67
+msgid "Gotas saliva en aire"
+msgstr ""
+
+#: main.js:49 main.js:102
+msgid "Influenza"
+msgstr ""
+
+#: main.js:50
+msgid "Influenza (pandemia 1918)"
+msgstr ""
+
+#: main.js:56
+msgid "Polio"
+msgstr ""
+
+#: main.js:57
+msgid "Polio (brote 1952 USA)"
+msgstr ""
+
+#: main.js:60
+msgid "Ruta fecal, oral"
+msgstr ""
+
+#: main.js:63 main.js:64
+msgid "Influenza estacional"
+msgstr ""
+
+#: main.js:70 main.js:71
+msgid "Sarampión"
+msgstr ""
+
+#: main.js:77 main.js:78
+msgid "Varicela"
+msgstr ""
+
+#: main.js:89
+msgid "Una enfermedad letal pero poco contagiosa"
+msgstr ""
+
+#: main.js:90
+msgid "VIRUS:"
+msgstr ""
+
+#: main.js:91
+msgid "Letalidad"
+msgstr ""
+
+#: main.js:92
+msgid "número promedio de personas"
+msgstr ""
+
+#: main.js:93
+msgid "que un enfermo puede infectar"
+msgstr ""
+
+#: main.js:94
+msgid "Transmisión"
+msgstr ""
+
+#: main.js:103
+msgid "estacional"
+msgstr ""
