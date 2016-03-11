@@ -2828,9 +2828,12 @@
 	</g>
 </g>
 <g id="Capa_10">
-	<text transform="matrix(1 0 0 1 -95.1484 209.3494)" fill="#1D1D1B" font-family="'Verdana-Bold'" font-size="30">Una respuesta tardía</text>
+	<text class="title" transform="matrix(1 0 0 1 -95.1484 209.3494)" fill="#1D1D1B" font-family="'Verdana-Bold'" font-size="30">A Late Response</text>
 	<g>
-		<text transform="matrix(1 0 0 1 130.1045 245.9963)"><tspan x="0" y="0" fill="#F59C00" font-family="Roboto" font-weight="700" font-size="12">Confirmed new infections</tspan><tspan x="0" y="16" fill="#00B0E9" font-family="Roboto" font-weight="700" font-size="12">Beds</tspan></text>
+		<text transform="matrix(1 0 0 1 130.1045 245.9963)">
+			<tspan class="legend1" x="0" y="0" fill="#F59C00" font-family="Roboto" font-weight="700" font-size="12">Confirmed new infections</tspan>
+			<tspan class="legend2" x="0" y="16" fill="#00B0E9" font-family="Roboto" font-weight="700" font-size="12">Beds</tspan>
+		</text>
 
 			<line fill="none" stroke="#00B0E9" stroke-width="3" stroke-miterlimit="10" x1="126.815" y1="257.901" x2="111.854" y2="257.901"/>
 
@@ -2884,58 +2887,58 @@
 	<text transform="matrix(1.3014 0 0 1 648.4497 303.9636)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="14.1613">2000</text>
 	<text transform="matrix(1.3014 0 0 1 648.4497 275.2)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="14.1613">2000</text>
 
-		<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 -101.8618 564.0593)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">New infections per week</text>
+		<text class="xaxis_legend1" transform="matrix(4.489659e-011 -1 1 4.489659e-011 -101.8618 564.0593)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">New infections per week</text>
 
-		<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 710.1382 564.0593)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Total number of beds</text>
+		<text class="xaxis_legend2" transform="matrix(4.489659e-011 -1 1 4.489659e-011 710.1382 564.0593)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Total number of beds</text>
 
-		<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 -13.8091 627.9509)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Mar 14</text>
+		<text class="mar_14" transform="matrix(4.489659e-011 -1 1 4.489659e-011 -13.8091 627.9509)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Mar 14</text>
 	<g>
 
-			<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 35.9248 625.2849)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Apr 14</text>
+			<text class="apr_14" transform="matrix(4.489659e-011 -1 1 4.489659e-011 35.9248 625.2849)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Apr 14</text>
 	</g>
 	<g>
 
-			<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 85.6592 629.5271)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">May 14</text>
+			<text class="may_14" transform="matrix(4.489659e-011 -1 1 4.489659e-011 85.6592 629.5271)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">May 14</text>
 	</g>
 	<g>
 
-			<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 135.3931 633.0896)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">June 14</text>
+			<text class="june_14" transform="matrix(4.489659e-011 -1 1 4.489659e-011 135.3931 633.0896)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">June 14</text>
 	</g>
 	<g>
 
-			<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 185.1274 628.6892)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">July 14</text>
+			<text class="july_14" transform="matrix(4.489659e-011 -1 1 4.489659e-011 185.1274 628.6892)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">July 14</text>
 	</g>
 	<g>
 
-			<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 234.8613 627.781)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Aug 14</text>
+			<text class="aug_14" transform="matrix(4.489659e-011 -1 1 4.489659e-011 234.8613 627.781)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Aug 14</text>
 	</g>
 	<g>
 
-			<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 284.5952 630.9158)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Sept 14</text>
+			<text class="sept_14" transform="matrix(4.489659e-011 -1 1 4.489659e-011 284.5952 630.9158)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Sept 14</text>
 	</g>
 	<g>
 
-			<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 334.3296 625.2615)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Oct 14</text>
+			<text class="oct_14" transform="matrix(4.489659e-011 -1 1 4.489659e-011 334.3296 625.2615)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Oct 14</text>
 	</g>
 	<g>
 
-			<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 384.064 628.0271)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Nov 14</text>
+			<text class="nov_14" transform="matrix(4.489659e-011 -1 1 4.489659e-011 384.064 628.0271)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Nov 14</text>
 	</g>
 	<g>
 
-			<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 433.7983 627.3416)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Dec 14</text>
+			<text class="dec_14" transform="matrix(4.489659e-011 -1 1 4.489659e-011 433.7983 627.3416)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Dec 14</text>
 	</g>
 	<g>
 
-			<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 483.5327 626.7263)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Jan 15</text>
+			<text class="jan_15" transform="matrix(4.489659e-011 -1 1 4.489659e-011 483.5327 626.7263)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Jan 15</text>
 	</g>
 	<g>
 
-			<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 533.2651 626.5798)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Feb 15</text>
+			<text class="feb_15" transform="matrix(4.489659e-011 -1 1 4.489659e-011 533.2651 626.5798)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Feb 15</text>
 	</g>
 	<g>
 
-			<text transform="matrix(4.489659e-011 -1 1 4.489659e-011 582.9995 627.9509)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Mar 15</text>
+			<text class="mar_15" transform="matrix(4.489659e-011 -1 1 4.489659e-011 582.9995 627.9509)" fill="#5A5A5A" font-family="Roboto" font-weight="300" font-size="12">Mar 15</text>
 	</g>
 	<g>
 

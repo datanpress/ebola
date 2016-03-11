@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-03-11 18:24+0100\n"
+"PO-Revision-Date: 2016-03-11 18:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ../../../7_Una_respuesta_tardia\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: main.js\n"
+
+#: main.js:32
+msgid "A Late Response"
+msgstr "Una respuesta tardía"
+
+#: main.js:33
+msgid "Confirmed new infections"
+msgstr "Nuevas infecciones confirmadas"
+
+#: main.js:34
+msgid "Beds"
+msgstr "Camas"
+
+#: main.js:35
+msgid "New infections per week"
+msgstr "Nuevas infecciones por semana"
+
+#: main.js:36
+msgid "Total number of beds"
+msgstr "Número total de camas"
+
+#: main.js:38
+msgid "Mar 14"
+msgstr ""
+
+#: main.js:39
+msgid "Abr 14"
+msgstr ""
+
+#: main.js:40
+msgid "May 14"
+msgstr ""
+
+#: main.js:41
+msgid "June 14"
+msgstr "Jun 14"
+
+#: main.js:42
+msgid "July 14"
+msgstr "Jul 14"
+
+#: main.js:43
+msgid "Aug 14"
+msgstr "Ago 14"
+
+#: main.js:44
+msgid "Sept 14"
+msgstr "Set 14"
+
+#: main.js:45
+msgid "Oct 14"
+msgstr ""
+
+#: main.js:46
+msgid "Nov 14"
+msgstr ""
+
+#: main.js:47
+msgid "Dec 14"
+msgstr "Dic 14"
+
+#: main.js:48
+msgid "Jan 15"
+msgstr "Ene 15"
+
+#: main.js:49
+msgid "Feb 15"
+msgstr ""
+
+#: main.js:50
+msgid "Mar 15"
+msgstr ""
+
+#: main.js:51
+msgid "Abr 15"
+msgstr ""
