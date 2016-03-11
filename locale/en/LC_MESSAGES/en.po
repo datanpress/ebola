@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-11 18:21+0100\n"
-"PO-Revision-Date: 2016-03-11 18:29+0100\n"
+"PO-Revision-Date: 2016-03-11 18:49+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -147,7 +147,7 @@ msgstr "<0.001%"
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:89
 msgid "Una enfermedad letal pero poco contagiosa"
-msgstr ""
+msgstr "A Disease That is Highly Lethal but Moderately Contagious"
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:90
 msgid "VIRUS:"
