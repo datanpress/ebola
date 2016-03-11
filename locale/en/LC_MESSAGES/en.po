@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-11 09:53+0100\n"
-"PO-Revision-Date: 2016-03-11 09:53+0100\n"
+"POT-Creation-Date: 2016-03-11 12:37+0100\n"
+"PO-Revision-Date: 2016-03-11 12:37+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -14,154 +14,220 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Loco-Source-Locale: es_MX\n"
 "X-Generator: Poedit 1.8.4\n"
-"X-Poedit-Basepath: ../../../1_Una_enfermedad_letal_pero_poco_contagiosa\n"
+"X-Poedit-Basepath: ../../..\n"
 "X-Loco-Parser: loco_parse_po\n"
 "X-Loco-Target-Locale: en\n"
-"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-0: 1_Una_enfermedad_letal_pero_poco_contagiosa\n"
+"X-Poedit-SearchPath-1: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js\n"
 
-#: main.js:14
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:14
 msgid "Ébola"
 msgstr "Ebola "
 
-#: main.js:15
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:15
 msgid "Ébola (brote 2014)"
 msgstr "Ebola (2014 outbreak)"
 
-#: main.js:17
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:17
 msgid "1,5-2,5"
 msgstr "1.5-2.5"
 
-#: main.js:18
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:18
 msgid "Contacto con fluidos corporales"
 msgstr "Contact with bodily fluids"
 
-#: main.js:21 main.js:22
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:21
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:22
 msgid "HIV"
 msgstr "HIV"
 
-#: main.js:23
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:23
 msgid "80-90% (si no tratado)"
 msgstr "80-90% (if untreated) "
 
-#: main.js:25
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:25
 msgid "Transmisión sexual, sangre, leche materna"
 msgstr "Sexual transmission, blood, breast milk"
 
-#: main.js:28
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:28
 msgid "Viruela"
 msgstr "Smallpox"
 
-#: main.js:29
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:29
 msgid "Viruela (Formalmente erradicada en 1977)"
 msgstr "Smallpox (Formally eradicated in 1977)"
 
-#: main.js:31
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:31
 msgid "3,5-6"
 msgstr "3.5-6"
 
-#: main.js:32
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:32
 msgid "Gotas de saliva aire"
 msgstr "Airborne respiratory droplets"
 
-#: main.js:35
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:35
 msgid "MERS"
 msgstr "MERS"
 
-#: main.js:36
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:36
 msgid "MERS Coranavirus"
 msgstr "MERS Coranavirus"
 
-#: main.js:38
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:38
 msgid "0,6-0,7"
 msgstr "0.6-0.7"
 
-#: main.js:39
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:39
 msgid "Contacto cercano, no se sabe con certeza"
 msgstr "Close contact, yet unclear "
 
-#: main.js:42 main.js:43
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:42
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:43
 msgid "SARS"
 msgstr "SARS"
 
-#: main.js:46 main.js:53 main.js:67
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:46
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:53
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:67
 msgid "Gotas saliva en aire"
 msgstr "Airborne respiratory droplets  "
 
-#: main.js:49 main.js:102
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:49
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:102
 msgid "Influenza"
 msgstr "Influenza "
 
-#: main.js:50
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:50
 msgid "Influenza (pandemia 1918)"
 msgstr "Influenza (1918 pandemia) "
 
-#: main.js:56
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:56
 msgid "Polio"
 msgstr "Polio"
 
-#: main.js:57
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:57
 msgid "Polio (brote 1952 USA)"
 msgstr "Polio (USA 1952 outbreak)"
 
-#: main.js:60
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:60
 msgid "Ruta fecal, oral"
 msgstr "Fecal and oral transmission"
 
-#: main.js:63 main.js:64
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:63
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:64
 msgid "Influenza estacional"
 msgstr "Seasonal influenza"
 
-#: main.js:65
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:65
 msgid "<0,5%"
 msgstr "<0.5%"
 
-#: main.js:70 main.js:71
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:70
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:71
 msgid "Sarampión"
 msgstr "Measles"
 
-#: main.js:72
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:72
 msgid "0,1-0,2%"
 msgstr "0.1-0.2%"
 
-#: main.js:74 main.js:81
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:74
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:81
 msgid "Aire"
 msgstr "Airborne respiratory droplets"
 
-#: main.js:77 main.js:78
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:77
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:78
 msgid "Varicela"
 msgstr "Varicella"
 
-#: main.js:79
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:79
 msgid "<0,001%"
 msgstr "<0.001%"
 
-#: main.js:89
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:89
 msgid "Una enfermedad letal pero poco contagiosa"
 msgstr ""
 
-#: main.js:90
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:90
 msgid "VIRUS:"
 msgstr "VIRUS:"
 
-#: main.js:91
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:91
 msgid "Letalidad:"
 msgstr "Case Fatality Rate:"
 
-#: main.js:92
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:92
 msgid "Número promedio de personas"
 msgstr "Average number of people that"
 
-#: main.js:93
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:93
 msgid "que un enfermo puede infectar:"
 msgstr "can be by one single patient "
 
-#: main.js:94
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:94
 msgid "Transmisión:"
 msgstr "Transmission:"
 
-#: main.js:103
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:103
 msgid "estacional"
 msgstr "Seasonal "
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:15
+msgid "Sierra Leona, Liberia y Guinea"
+msgstr "Sierra Leone, Liberia and Guinea"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:17
+msgid "28.602"
+msgstr "28,602"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:18
+msgid "11.301"
+msgstr "11,301"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:19
+msgid "50% (promedio de los 3 países)"
+msgstr "50% (average for the 3 countries)"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:71
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:135
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:143
+msgid "Sudán"
+msgstr "Sudan"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:95
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:111
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:127
+msgid "Gabón"
+msgstr "Gabon"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:175
+msgid "Evolución histórica de los brotes de ébola"
+msgstr "Chronology of Ebola virus disease outbreaks"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:176
+msgid "Año:"
+msgstr "Year:"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:177
+msgid "País:"
+msgstr "Country:"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:178
+msgid "Casos:"
+msgstr "Cases:"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:179
+msgid "Muertes:"
+msgstr "Deaths:"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:180
+msgid "Especies:"
+msgstr "Species:"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:181
+msgid "Mortalidad:"
+msgstr "Case fatality rate:"
 
 #~ msgid "Letalidad"
 #~ msgstr "Case Fatality Rate:"
