@@ -1,103 +1,139 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-03-10 11:26+0100\n"
-"PO-Revision-Date: 2016-03-10 11:26+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-11 09:53+0100\n"
+"PO-Revision-Date: 2016-03-11 09:53+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
-"X-Poedit-Basepath: ../../../1_Una_enfermedad_letal_pero_poco_contagiosa\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Source-Locale: es_MX\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ../../../1_Una_enfermedad_letal_pero_poco_contagiosa\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Loco-Target-Locale: en\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: main.js:14
 msgid "Ébola"
-msgstr ""
+msgstr "Ebola "
 
 #: main.js:15
 msgid "Ébola (brote 2014)"
-msgstr ""
+msgstr "Ebola (2014 outbreak)"
+
+#: main.js:17
+msgid "1,5-2,5"
+msgstr "1.5-2.5"
 
 #: main.js:18
 msgid "Contacto con fluidos corporales"
-msgstr ""
+msgstr "Contact with bodily fluids"
 
 #: main.js:21 main.js:22
 msgid "HIV"
-msgstr ""
+msgstr "HIV"
 
 #: main.js:23
 msgid "80-90% (si no tratado)"
-msgstr ""
+msgstr "80-90% (if untreated) "
 
 #: main.js:25
 msgid "Transmisión sexual, sangre, leche materna"
-msgstr ""
+msgstr "Sexual transmission, blood, breast milk"
 
 #: main.js:28
 msgid "Viruela"
-msgstr ""
+msgstr "Smallpox"
 
 #: main.js:29
 msgid "Viruela (Formalmente erradicada en 1977)"
-msgstr ""
+msgstr "Smallpox (Formally eradicated in 1977)"
 
-#: main.js:32 main.js:74 main.js:81
-msgid "Aire"
-msgstr ""
+#: main.js:31
+msgid "3,5-6"
+msgstr "3.5-6"
 
-#: main.js:35 main.js:36
+#: main.js:32
+msgid "Gotas de saliva aire"
+msgstr "Airborne respiratory droplets"
+
+#: main.js:35
 msgid "MERS"
-msgstr ""
+msgstr "MERS"
+
+#: main.js:36
+msgid "MERS Coranavirus"
+msgstr "MERS Coranavirus"
+
+#: main.js:38
+msgid "0,6-0,7"
+msgstr "0.6-0.7"
 
 #: main.js:39
 msgid "Contacto cercano, no se sabe con certeza"
-msgstr ""
+msgstr "Close contact, yet unclear "
 
 #: main.js:42 main.js:43
 msgid "SARS"
-msgstr ""
+msgstr "SARS"
 
 #: main.js:46 main.js:53 main.js:67
 msgid "Gotas saliva en aire"
-msgstr ""
+msgstr "Airborne respiratory droplets  "
 
 #: main.js:49 main.js:102
 msgid "Influenza"
-msgstr ""
+msgstr "Influenza "
 
 #: main.js:50
 msgid "Influenza (pandemia 1918)"
-msgstr ""
+msgstr "Influenza (1918 pandemia) "
 
 #: main.js:56
 msgid "Polio"
-msgstr ""
+msgstr "Polio"
 
 #: main.js:57
 msgid "Polio (brote 1952 USA)"
-msgstr ""
+msgstr "Polio (USA 1952 outbreak)"
 
 #: main.js:60
 msgid "Ruta fecal, oral"
-msgstr ""
+msgstr "Fecal and oral transmission"
 
 #: main.js:63 main.js:64
 msgid "Influenza estacional"
-msgstr ""
+msgstr "Seasonal influenza"
+
+#: main.js:65
+msgid "<0,5%"
+msgstr "<0.5%"
 
 #: main.js:70 main.js:71
 msgid "Sarampión"
-msgstr ""
+msgstr "Measles"
+
+#: main.js:72
+msgid "0,1-0,2%"
+msgstr "0.1-0.2%"
+
+#: main.js:74 main.js:81
+msgid "Aire"
+msgstr "Airborne respiratory droplets"
 
 #: main.js:77 main.js:78
 msgid "Varicela"
-msgstr ""
+msgstr "Varicella"
+
+#: main.js:79
+msgid "<0,001%"
+msgstr "<0.001%"
 
 #: main.js:89
 msgid "Una enfermedad letal pero poco contagiosa"
@@ -105,24 +141,36 @@ msgstr ""
 
 #: main.js:90
 msgid "VIRUS:"
-msgstr ""
+msgstr "VIRUS:"
 
 #: main.js:91
-msgid "Letalidad"
-msgstr ""
+msgid "Letalidad:"
+msgstr "Case Fatality Rate:"
 
 #: main.js:92
-msgid "número promedio de personas"
-msgstr ""
+msgid "Número promedio de personas"
+msgstr "Average number of people that"
 
 #: main.js:93
-msgid "que un enfermo puede infectar"
-msgstr ""
+msgid "que un enfermo puede infectar:"
+msgstr "can be by one single patient "
 
 #: main.js:94
-msgid "Transmisión"
-msgstr ""
+msgid "Transmisión:"
+msgstr "Transmission:"
 
 #: main.js:103
 msgid "estacional"
-msgstr ""
+msgstr "Seasonal "
+
+#~ msgid "Letalidad"
+#~ msgstr "Case Fatality Rate:"
+
+#~ msgid "número promedio de personas"
+#~ msgstr "Average number of people "
+
+#~ msgid "que un enfermo puede infectar"
+#~ msgstr "that can be by one single patient (R0):"
+
+#~ msgid "Transmisión"
+#~ msgstr "Transmission"
