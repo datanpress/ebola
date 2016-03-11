@@ -14,7 +14,7 @@ var data = {
     "name":iJS._("Ébola"),
     "VIRUS":iJS._("Ébola (brote 2014)"),
     "Letalidad":"70%",
-    "R0":"1.5-2.5",
+    "R0":iJS._("1,5-2,5"),
     "Transmisión":iJS._("Contacto con fluidos corporales")
   },
   "hiv": {
@@ -28,14 +28,14 @@ var data = {
     "name":iJS._("Viruela"),
     "VIRUS":iJS._("Viruela (Formalmente erradicada en 1977)"),
     "Letalidad":"30%",
-    "R0":"3.5-6",
-    "Transmisión":iJS._("Aire")
+    "R0":iJS._("3,5-6"),
+    "Transmisión":iJS._("Gotas de saliva aire")
   },
   "mers": {
     "name":iJS._("MERS"),
-    "VIRUS":iJS._("MERS"),
+    "VIRUS":iJS._("MERS Coranavirus"),
     "Letalidad":"35%",
-    "R0":"0.6-0.7",
+    "R0":iJS._("0,6-0,7"),
     "Transmisión":iJS._("Contacto cercano, no se sabe con certeza")
   },
   "sars": {
@@ -62,21 +62,21 @@ var data = {
   "influenza_e": {
     "name":iJS._("Influenza estacional"),
     "VIRUS":iJS._("Influenza estacional"),
-    "Letalidad":"<0.5%",
+    "Letalidad":iJS._("<0,5%"),
     "R0":"1-2",
     "Transmisión":iJS._("Gotas saliva en aire")
   },
   "sarampion": {
     "name":iJS._("Sarampión"),
     "VIRUS":iJS._("Sarampión"),
-    "Letalidad":"0.1-0.2%",
+    "Letalidad":iJS._("0,1-0,2%"),
     "R0":"12-18",
     "Transmisión":iJS._("Aire")
   },
   "varicela": {
     "name":iJS._("Varicela"),
     "VIRUS":iJS._("Varicela"),
-    "Letalidad":"<0.001%",
+    "Letalidad":iJS._("<0,001%"),
     "R0":"5-9",
     "Transmisión":iJS._("Aire")
   }
@@ -88,13 +88,13 @@ d3.xml("1b_copia.svg", "image/svg+xml", function(error, xml) {
   //translate
   d3.select('.title').text(iJS._("Una enfermedad letal pero poco contagiosa"));
   d3.select('.labelV').text(iJS._("VIRUS:"));
-  d3.select('.labelL').text(iJS._("Letalidad"));
-  d3.select('.labelN1').text(iJS._("número promedio de personas"));
-  d3.select('.labelN2').text(iJS._("que un enfermo puede infectar"));
-  d3.select('.labelT').text(iJS._("Transmisión"));
+  d3.select('.labelL').text(iJS._("Letalidad:"));
+  d3.select('.labelN1').text(iJS._("Número promedio de personas"));
+  d3.select('.labelN2').text(iJS._("que un enfermo puede infectar:"));
+  d3.select('.labelT').text(iJS._("Transmisión:"));
   d3.selectAll("text.hiv,text.viruela,text.mers,text.sars,text.influenza,text.polio,text.sarampion,text.varicela,text.ebola")
     .each(function(d,i){
-      console.log(this,d,i)
+      // console.log(this,d,i)
       // console.log(d3.select(this).selectAll('tspan').text())
       // d3.select(this).text(iJS._(d3.select(this).text()))
       d3.select(this).selectAll('tspan').text( iJS._(d3.select(this).text()) )
@@ -103,9 +103,22 @@ d3.xml("1b_copia.svg", "image/svg+xml", function(error, xml) {
   d3.select(".influenza_e2").text(iJS._("estacional"))
   //END translate
 
+  //select ebola
+  d3.select("rect.ebola").attr('stroke-miterlimit',10)
+    .attr('stroke-width',2)
+    .attr('fill',"#008EAB")
+    .attr('stroke',"#F59C00");
+  d3.select("text.ebola").attr('fill',"#008EAB");
+  d3.select(".valueV").text(data['ebola']["VIRUS"])
+  d3.select(".valueL").text(data['ebola']["Letalidad"])
+  d3.select(".valueN").text(data['ebola']["R0"])
+  d3.select(".valueT").text(data['ebola']["Transmisión"])
+  d3.selectAll(".label").style("fill-opacity",1)
+  d3.selectAll(".valueV, .valueL, .valueN, .valueT").style("fill-opacity",1)
+
 
   d3.selectAll(".hiv,.viruela,.mers,.sars,.influenza,.influenza_e,.polio,.sarampion,.varicela,.ebola").on("mouseover", function() {
-    console.log(d3.select(this).attr('class'));
+    // console.log(d3.select(this).attr('class'));
     var c = d3.select(this).attr('class')
     d3.select("rect."+c).attr('stroke-miterlimit',10)
       .attr('stroke-width',2)

@@ -5,3 +5,8 @@
 svg .valueV, .valueL, .valueN, .valueT{
   fill-opacity:0
 }*/
+
+rect.selected{
+  stroke: rgb(0, 0, 0);
+  stroke-miterlimit: 10;
+}
