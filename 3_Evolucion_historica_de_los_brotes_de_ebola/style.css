@@ -7,6 +7,6 @@ svg .valueV, .valueL, .valueN, .valueT{
 }*/
 
 rect.selected{
-  stroke: rgb(0, 0, 0);
-  stroke-miterlimit: 10;
+  stroke: rgb(0, 0, 0) !important;
+  stroke-miterlimit: 10 !important;
 }
