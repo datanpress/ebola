@@ -9,152 +9,6 @@ if(lang!=null && lang!=""){
   iJS.i18n.try_load_lang() ; //will load and parse messages data from the setting catalog.
 }
 
-var data ={
-  "2014-2015": {
-    "year":"2014-2015",
-    "country":iJS._("Sierra Leona, Liberia y Guinea"),
-    "species":"Zaire",
-    "cases":iJS._("28.602"),
-    "deaths":iJS._("11.301"),
-    "fatality_rate":iJS._("50% (promedio de los 3 países)")
-  },
-  "2014": {
-    "year":"2014",
-    "country":"RD Congo",
-    "species":"Zaire",
-    "cases":66,
-    "deaths":49,
-    "fatality_rate":"74%"
-  },
-  "2012_congo": {
-    "year":"2012",
-    "country":"RD Congo",
-    "species":"Bundibugyo",
-    "cases":36,
-    "deaths":13,
-    "fatality_rate":"36%"
-  },
-  "2012_uganda": {
-    "year":"2012",
-    "country":"Uganda",
-    "species":"Sudan",
-    "cases":24,
-    "deaths":17,
-    "fatality_rate":"71%"
-  },
-  "2008": {
-    "year":"2008",
-    "country":"RD Congo",
-    "species":"Zaire",
-    "cases":32,
-    "deaths":14,
-    "fatality_rate":"44%"
-  },
-  "2007_uganda": {
-    "year":"2007",
-    "country":"Uganda",
-    "species":"Bundibugyo",
-    "cases":149,
-    "deaths":37,
-    "fatality_rate":"25%"
-  },
-  "2007_congo": {
-    "year":"2007",
-    "country":"RD Congo",
-    "species":"Zaire",
-    "cases":264,
-    "deaths":187,
-    "fatality_rate":"71%"
-  },
-  "2004": {
-    "year":"2004",
-    "country":iJS._("Sudán"),
-    "species":"Sudan",
-    "cases":17,
-    "deaths":7,
-    "fatality_rate":"41%"
-  },
-  "2003": {
-    "year":"2003",
-    "country":"Congo",
-    "species":"Zaire",
-    "cases":35,
-    "deaths":29,
-    "fatality_rate":"83%"
-  },
-  "2002": {
-    "year":"2002",
-    "country":"Congo",
-    "species":"Zaire",
-    "cases":143,
-    "deaths":128,
-    "fatality_rate":"89%"
-  },
-  "2001": {
-    "year":"2001",
-    "country":iJS._("Gabón"),
-    "species":"Zaire",
-    "cases":65,
-    "deaths":53,
-    "fatality_rate":"82%"
-  },
-  "2000": {
-    "year":"2000",
-    "country":"Uganda",
-    "species":"Sudan",
-    "cases":425,
-    "deaths":224,
-    "fatality_rate":"53%"
-  },
-  "1996": {
-    "year":"1996",
-    "country":iJS._("Gabón"),
-    "species":"Zaire",
-    "cases":97,
-    "deaths":66,
-    "fatality_rate":"84%"
-  },
-  "1995": {
-    "year":"1995",
-    "country":"RD Congo",
-    "species":"Zaire",
-    "cases":315,
-    "deaths":254,
-    "fatality_rate":"81%"
-  },
-  "1994": {
-    "year":"1994",
-    "country":iJS._("Gabón"),
-    "species":"Zaire",
-    "cases":52,
-    "deaths":31,
-    "fatality_rate":"60%"
-  },
-  "1979": {
-    "year":"1979",
-    "country":iJS._("Sudán"),
-    "species":"Sudan",
-    "cases":34,
-    "deaths":22,
-    "fatality_rate":"65%"
-  },
-  "1976_sudan": {
-    "year":"1976",
-    "country":iJS._("Sudán"),
-    "species":"Sudan",
-    "cases":284,
-    "deaths":151,
-    "fatality_rate":"53%"
-  },
-  "1976_congo": {
-    "year":"1976",
-    "country":"RD Congo",
-    "species":"Zaire",
-    "cases":318,
-    "deaths":280,
-    "fatality_rate":"88%"
-  }
-};
 
 var dataOrder = ["1976_sudan","1976_congo","1979","1994","1995","1996","2000","2001","2002","2003","2004","2007_uganda","2007_congo","2008","2012_congo","2012_uganda","2014","2014-2015"];
 // console.log(data)
@@ -174,6 +28,27 @@ d3.xml("7_NOU.svg", "image/svg+xml", function(error, xml) {
   if (error) throw error;
   document.body.appendChild(xml.documentElement);
 
+  //translate
+  d3.select('.title').text(iJS._("A Late Response"))
+  d3.select('.legend1').text(iJS._("Confirmed new infections"))
+  d3.select('.legend2').text(iJS._("Beds"))
+  d3.select('.xaxis_legend1').text(iJS._("New infections per week"))
+  d3.select('.xaxis_legend2').text(iJS._("Total number of beds"))
+
+  d3.select('.mar_14').text(iJS._("Mar 14"))
+  d3.select('.abr_14').text(iJS._("Abr 14"))
+  d3.select('.may_14').text(iJS._("May 14"))
+  d3.select('.june_14').text(iJS._("June 14"))
+  d3.select('.july_14').text(iJS._("July 14"))
+  d3.select('.aug_14').text(iJS._("Aug 14"))
+  d3.select('.sept_14').text(iJS._("Sept 14"))
+  d3.select('.oct_14').text(iJS._("Oct 14"))
+  d3.select('.nov_14').text(iJS._("Nov 14"))
+  d3.select('.dec_14').text(iJS._("Dec 14"))
+  d3.select('.jan_15').text(iJS._("Jan 15"))
+  d3.select('.feb_15').text(iJS._("Feb 15"))
+  d3.select('.mar_15').text(iJS._("Mar 15"))
+  d3.select('.abr_15').text(iJS._("Abr 15"))
 
   d3.selectAll("#Liberia-Sierra_Leone,#Sierra_Leone,#Liberia,#Guinea,#Guinea-Liberia,#Guinea-Sierra_Leone").classed('hide',true)
 

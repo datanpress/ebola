@@ -1,3 +1,11 @@
+/*svg tspan.label{
+  fill-opacity:0
+}
+
+svg .valueV, .valueL, .valueN, .valueT{
+  fill-opacity:0
+}*/
+
 rect.selected{
   stroke: rgb(0, 0, 0) !important;
   stroke-miterlimit: 10 !important;
