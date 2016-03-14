@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-14 09:30+0100\n"
-"PO-Revision-Date: 2016-03-14 09:32+0100\n"
+"POT-Creation-Date: 2016-03-14 11:24+0100\n"
+"PO-Revision-Date: 2016-03-14 11:24+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -21,6 +21,7 @@ msgstr ""
 "X-Poedit-SearchPath-1: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js\n"
 "X-Poedit-SearchPath-2: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main."
 "js\n"
+"X-Poedit-SearchPath-3: 5_Donde_ha_golpeado_y_a_cuantos/main.js\n"
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:14
 #: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:41
@@ -234,6 +235,7 @@ msgstr "Case fatality rate:"
 
 #: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:15
 #: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:43
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:19
 msgid "Sierra Leona"
 msgstr "Sierra Leone"
 
@@ -254,6 +256,7 @@ msgstr "1,660"
 
 #: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:21
 #: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:42
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:21
 msgid "Guinea"
 msgstr "Guinea"
 
@@ -274,6 +277,7 @@ msgstr "1,366"
 
 #: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:27
 #: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:44
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:20
 msgid "Liberia"
 msgstr "Liberia"
 
@@ -303,6 +307,51 @@ msgstr "Malaria"
 #: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:40
 msgid "Tuberculosis"
 msgstr "Tuberculosis"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:18
+msgid "Dónde ha golpeado y a cuántos"
+msgstr "EN: Where Has Ebola Hit and How Many Has it Killed?"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:22
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:23
+msgid "Otros*"
+msgstr "Others*"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:24
+msgid "*sólo hubo tres infectados fuera de áfrica"
+msgstr "*only three people were infected outside"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:26
+msgid "14.124"
+msgstr "14.124"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:27
+msgid "3.956"
+msgstr "3,956"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:29
+msgid "10.675"
+msgstr "10,675"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:30
+msgid "4.809"
+msgstr "4,809"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:32
+msgid "3.804"
+msgstr "3,804"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:33
+msgid "2.536"
+msgstr "2,536"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:35
+msgid "FALLECIDOS:"
+msgstr "DEAD:"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:36
+msgid "Infectados:"
+msgstr "Infected:"
 
 #~ msgid "Letalidad"
 #~ msgstr "Case Fatality Rate:"
