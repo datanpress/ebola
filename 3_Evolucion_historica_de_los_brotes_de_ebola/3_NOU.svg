@@ -32,15 +32,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1400"
-     inkscape:window-height="994"
+     inkscape:window-width="1360"
+     inkscape:window-height="739"
      id="namedview267"
      showgrid="false"
-     inkscape:zoom="5.2577705"
-     inkscape:cx="519.03096"
-     inkscape:cy="89.184637"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="1.8589026"
+     inkscape:cx="159.04167"
+     inkscape:cy="168.58149"
+     inkscape:window-x="1400"
+     inkscape:window-y="282"
      inkscape:window-maximized="1"
      inkscape:current-layer="Capa_1" /><path
      fill="#EDEDED"
@@ -57,7 +57,8 @@
      id="path9" /><text
      class="title"
      transform="matrix(1 0 0 1 40.2437 38.7671)"
-     font-family="Roboto" font-weight="700"
+     font-family="Roboto"
+     font-weight="700"
      font-size="30"
      id="text11">Evolución histórica de los brotes de ébola</text>
 <g
@@ -639,7 +640,8 @@
        x="100.681"
        style="fill:#f59c00" /></g><g
      id="g3599"
-     class="_1976_sudan"><rect class="selected"
+     class="_1976_sudan"><rect
+       class="selected"
        id="rect155"
        height="16.85"
        width="16.85"
@@ -653,118 +655,127 @@
        x="38.248001"
        style="fill:#f59c00" /></g><text
      transform="matrix(1 0 0 1 12.5303 153.3096)"
-     font-family="Roboto" font-weight="300"
+     font-family="Roboto"
+     font-weight="300"
      font-size="10"
      id="text159">1975</text>
 <text
      transform="matrix(1 0 0 1 207.5303 153.3096)"
-     font-family="Roboto" font-weight="300"
+     font-family="Roboto"
+     font-weight="300"
      font-size="10"
      id="text161">1985</text>
 <text
      transform="matrix(1 0 0 1 402.5698 153.3096)"
-     font-family="Roboto" font-weight="300"
+     font-family="Roboto"
+     font-weight="300"
      font-size="10"
      id="text163">1995</text>
 <text
      transform="matrix(1 0 0 1 597.5298 153.3096)"
-     font-family="Roboto" font-weight="300"
+     font-family="Roboto"
+     font-weight="300"
      font-size="10"
      id="text165">2005</text>
 <path
-     opacity="0.4"
-     fill="#F59C00"
-     d="M597.53,261.191c0,7.438-9.564,13.47-21.361,13.47H46.558  c-11.798,0-21.363-6.031-21.363-13.47v-25.817c0-7.438,9.564-13.47,21.363-13.47h529.61c11.797,0,21.361,6.031,21.361,13.47V261.191  z"
-     id="path167" /><text
+     d="m 597.53,267.60062 c 0,8.6515 -9.564,15.66761 -21.361,15.66761 l -529.611,0 c -11.798,0 -21.363,-7.01495 -21.363,-15.66761 l 0,-30.02901 c 0,-8.6515 9.564,-15.66761 21.363,-15.66761 l 529.61,0 c 11.797,0 21.361,7.01495 21.361,15.66761 l 0,30.02901 z"
+     id="path167"
+     inkscape:connector-curvature="0"
+     style="opacity:0.4;fill:#f59c00" /><text
      transform="matrix(1 0 0 1 37.5664 244.6611)"
      id="text169"><tspan
        class="Lyear"
-			 x="60"
-			 text-anchor="end"
+       x="60"
+       text-anchor="end"
        y="0"
        font-family="'Roboto-Regular'"
        font-size="14"
        id="tspan171">Año: </tspan><tspan
-			 class="year"
+       class="year"
        x="66"
        y="0"
-       font-family="Roboto" font-weight="700"
+       font-family="Roboto"
+       font-weight="700"
        font-size="14"
        id="tspan173">1976</tspan><tspan
        class="Lcountry"
        x="60"
-			 text-anchor="end"
+       text-anchor="end"
        y="16.8"
        font-family="'Roboto-Regular'"
        font-size="14"
        id="tspan175">País: </tspan><tspan
-			 class="country"
+       class="country"
        x="66"
        y="16.8"
-       font-family="Roboto" font-weight="700"
+       font-family="Roboto"
+       font-weight="700"
        font-size="14"
-       id="tspan177">Sudán</tspan><tspan
-       x="76.61"
-       y="16.8"
-       font-family="'Roboto-Regular'"
-       font-size="14"
-       id="tspan179" /></text>
+       id="tspan177">Sudán</tspan>
+       <tspan font-weight="700" font-family="Roboto" x="66" y="34" id="tspan179" font-size="14" class="country2"></tspan>
+     </text>
 <text
      transform="matrix(1 0 0 1 358.8901 244.6611)"
      id="text181"><tspan
        class="Lspecies"
-			 x="75"
-			 text-anchor="end"
+       x="75"
+       text-anchor="end"
        y="0"
        font-family="'Roboto-Regular'"
        font-size="14"
        id="tspan183">Especies: </tspan><tspan
-			 class="species"
+       class="species"
        x="79.091"
        y="0"
-       font-family="Roboto" font-weight="700"
+       font-family="Roboto"
+       font-weight="700"
        font-size="14"
        id="tspan185">Sudán </tspan><tspan
        class="Lfatality_rate"
        x="75"
-			 text-anchor="end"
+       text-anchor="end"
        y="16.8"
        font-family="'Roboto-Regular'"
        font-size="14"
        id="tspan187">Mortalidad: </tspan><tspan
-			 class="fatality_rate"
+       class="fatality_rate"
        x="79.091"
        y="16.8"
-       font-family="Roboto" font-weight="700"
+       font-family="Roboto"
+       font-weight="700"
        font-size="14"
-       id="tspan189">53% </tspan></text>
+       id="tspan189">53% </tspan>
+       <tspan id="tspan189" font-size="14" font-weight="700" font-family="Roboto" y="34" x="50" class="fatality_rate2"></tspan>
+     </text>
 <text
      transform="matrix(1 0 0 1 201.4883 244.6611)"
      id="text191"><tspan
        class="Lcases"
        x="50"
-			 text-anchor="end"
+       text-anchor="end"
        y="0"
        font-family="'Roboto-Regular'"
        font-size="14"
        id="tspan193">Casos: </tspan><tspan
-			 class="cases"
+       class="cases"
        x="55"
        y="0"
-       font-family="Roboto" font-weight="700"
+       font-family="Roboto"
+       font-weight="700"
        font-size="14"
        id="tspan195">284 </tspan><tspan
        class="Ldeaths"
-			 x="50"
-			 text-anchor="end"
+       x="50"
+       text-anchor="end"
        y="16.8"
        font-family="'Roboto-Regular'"
        font-size="14"
        id="tspan197">Muertes: </tspan><tspan
-			 class="deaths"
+       class="deaths"
        x="55"
        y="16.8"
-       font-family="Roboto" font-weight="700"
+       font-family="Roboto"
+       font-weight="700"
        font-size="14"
        id="tspan199">151 </tspan></text>
 <path
@@ -773,7 +784,8 @@
      d="M819.175,149.999c0,3.738-2.789,6.768-6.229,6.768h-16.871c-3.44,0-6.229-3.029-6.229-6.768  l0,0c0-3.737,2.789-6.767,6.229-6.767h16.871C816.386,143.232,819.175,146.262,819.175,149.999L819.175,149.999z"
      id="path201" /><text
      transform="matrix(1 0 0 1 792.3755 153.3096)"
-     font-family="Roboto" font-weight="300"
+     font-family="Roboto"
+     font-weight="300"
      font-size="10"
      id="text203">2015</text>
 <g

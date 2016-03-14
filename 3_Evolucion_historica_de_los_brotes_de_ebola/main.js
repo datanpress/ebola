@@ -12,11 +12,13 @@ if(lang!=null && lang!=""){
 var data ={
   "2014-2015": {
     "year":"2014-2015",
-    "country":iJS._("Sierra Leona, Liberia y Guinea"),
+    "country":iJS._("Sierra Leona,"),
+    "country2":iJS._("Liberia y Guinea"),
     "species":"Zaire",
     "cases":iJS._("28.602"),
     "deaths":iJS._("11.301"),
-    "fatality_rate":iJS._("50% (promedio de los 3 países)")
+    "fatality_rate":iJS._("50%"),
+    "fatality_rate2":iJS._("(promedio de los 3 países)")
   },
   "2014": {
     "year":"2014",
@@ -194,6 +196,16 @@ d3.xml("3_NOU.svg", "image/svg+xml", function(error, xml) {
       d3.select('.deaths').text(data[t].deaths)
       d3.select('.species').text(data[t].species)
       d3.select('.fatality_rate').text(data[t].fatality_rate)
+      if (typeof data[t].country2 != 'undefined') {
+        d3.select('.country2').text(data[t].country2)
+      }else{
+        d3.select('.country2').text('')
+      }
+      if (typeof data[t].country2 != 'undefined') {
+        d3.select('.fatality_rate2').text(data[t].fatality_rate2)
+      }else{
+        d3.select('.fatality_rate2').text('')
+      }
       // console.log('g._'+t)
       d3.selectAll('rect.selected').classed('selected',false)
       d3.select('g._'+t).selectAll('rect').filter(function(d){
