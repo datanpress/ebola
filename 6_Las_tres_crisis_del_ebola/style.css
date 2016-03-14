@@ -1,0 +1,22 @@
+.deaths.active circle,
+.cases.active circle{
+  stroke:red;
+}
+text.deaths.active,
+text.cases.active{
+  font-weight:700
+}
+
+.s1.active,
+.s2.active,
+.s3.active,
+.s4.active{
+  stroke:#000;
+  stroke-width:.5;
+}
+.s5.active,
+.s6.active,
+.s7.active{
+  stroke:red;
+  stroke-width:.5;
+}

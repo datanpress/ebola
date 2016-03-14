@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-11 18:21+0100\n"
-"PO-Revision-Date: 2016-03-11 18:49+0100\n"
+"POT-Creation-Date: 2016-03-14 12:38+0100\n"
+"PO-Revision-Date: 2016-03-14 12:43+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -19,8 +19,13 @@ msgstr ""
 "X-Loco-Target-Locale: en\n"
 "X-Poedit-SearchPath-0: 1_Una_enfermedad_letal_pero_poco_contagiosa\n"
 "X-Poedit-SearchPath-1: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js\n"
+"X-Poedit-SearchPath-2: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main."
+"js\n"
+"X-Poedit-SearchPath-3: 5_Donde_ha_golpeado_y_a_cuantos/main.js\n"
+"X-Poedit-SearchPath-4: 6_Las_tres_crisis_del_ebola/main.js\n"
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:14
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:41
 msgid "Ébola"
 msgstr "Ebola "
 
@@ -228,6 +233,218 @@ msgstr "Species:"
 #: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:181
 msgid "Mortalidad:"
 msgstr "Case fatality rate:"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:15
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:43
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:19
+msgid "Sierra Leona"
+msgstr "Sierra Leone"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:16
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:46
+msgid "6.500"
+msgstr "6,500"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:17
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:47
+msgid "2.643"
+msgstr "2,643"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:18
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:48
+msgid "1.660"
+msgstr "1,660"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:21
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:42
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:21
+msgid "Guinea"
+msgstr "Guinea"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:22
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:50
+msgid "12.000"
+msgstr "12,000"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:23
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:51
+msgid "3.227"
+msgstr "3,227"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:24
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:52
+msgid "1.366"
+msgstr "1,366"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:27
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:44
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:20
+msgid "Liberia"
+msgstr "Liberia"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:28
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:54
+msgid "2.900"
+msgstr "2,900"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:29
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:55
+msgid "2.149"
+msgstr "2,149"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:30
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:56
+msgid "3.161"
+msgstr "3,161"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:38
+msgid "El ébola frente a otras enfermedades en África"
+msgstr "Ebola Compared to Other Diseases in"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:39
+msgid "Malaria"
+msgstr "Malaria"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:40
+msgid "Tuberculosis"
+msgstr "Tuberculosis"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:18
+msgid "Dónde ha golpeado y a cuántos"
+msgstr "EN: Where Has Ebola Hit and How Many Has it Killed?"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:22
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:23
+msgid "Otros*"
+msgstr "Others*"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:24
+msgid "*sólo hubo tres infectados fuera de áfrica"
+msgstr "*only three people were infected outside"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:26
+msgid "14.124"
+msgstr "14.124"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:27
+msgid "3.956"
+msgstr "3,956"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:29
+msgid "10.675"
+msgstr "10,675"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:30
+msgid "4.809"
+msgstr "4,809"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:32
+msgid "3.804"
+msgstr "3,804"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:33
+msgid "2.536"
+msgstr "2,536"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:35
+msgid "FALLECIDOS:"
+msgstr "DEAD:"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:36
+msgid "Infectados:"
+msgstr "Infected:"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:18
+msgid "Las tres crisis del ébola"
+msgstr "The Three Ebola Crises"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:20
+msgid "víctimas directas*"
+msgstr "direct victims*"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:21
+msgid "28.000 casos"
+msgstr ""
+
+#: 6_Las_tres_crisis_del_ebola/main.js:22
+msgid "11.300 muertes"
+msgstr ""
+
+#: 6_Las_tres_crisis_del_ebola/main.js:24
+msgid "consecuencias en salud"
+msgstr "health consequences"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:25
+msgid "más de 4.000 muertes"
+msgstr "more than 4,000 additional"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:26
+msgid "maternas adicionales en 2014"
+msgstr "maternal deaths in 2014"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:28
+msgid "más de 11.000 muertes"
+msgstr "more than 11,000 additional"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:29
+msgid "adicionales por malaria"
+msgstr "deaths by malaria"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:30
+msgid "tuberculosis y VIH"
+msgstr "TB and HIV"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:32
+msgid "más de 500"
+msgstr "more than 500"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:33
+msgid "sanitarios muertos"
+msgstr "healthcare workers died"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:35
+msgid "17.000 supervivientes"
+msgstr "17,000 survivors with "
+
+#: 6_Las_tres_crisis_del_ebola/main.js:36
+msgid "con secuelas potenciales"
+msgstr "potential long-term health consequences"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:38
+msgid "consecuencias sociales y económicas"
+msgstr "social and economic consequences"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:39
+msgid "más de"
+msgstr "more than"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:40
+msgid "16.000 huérfanos"
+msgstr "16,000 orphans"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:42
+msgid "3,6 millones de personas"
+msgstr "3.6 million people"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:43
+msgid "en situación alimentaria precaria"
+msgstr "at risk of food insecurity"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:45
+msgid "3.600 millones USD"
+msgstr "3,600 million USD"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:46
+msgid "de pérdida en GDP para la región"
+msgstr "loss in GDP for the region"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:48
+msgid ""
+"Fuente: OMS, PNUD, http://www.africa.undp.org/content/dam/rba/docs/Reports/"
+"ebola-west-africa.pdf"
+msgstr ""
+"Source: WHO, UNDP, http://www.africa.undp.org/content/dam/rba/docs/Reports/"
+"ebola-west-africa.pdf"
 
 #~ msgid "Letalidad"
 #~ msgstr "Case Fatality Rate:"
