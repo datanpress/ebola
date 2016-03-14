@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-14 11:24+0100\n"
-"PO-Revision-Date: 2016-03-14 11:24+0100\n"
+"POT-Creation-Date: 2016-03-14 12:38+0100\n"
+"PO-Revision-Date: 2016-03-14 12:43+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -22,6 +22,7 @@ msgstr ""
 "X-Poedit-SearchPath-2: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main."
 "js\n"
 "X-Poedit-SearchPath-3: 5_Donde_ha_golpeado_y_a_cuantos/main.js\n"
+"X-Poedit-SearchPath-4: 6_Las_tres_crisis_del_ebola/main.js\n"
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:14
 #: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:41
@@ -352,6 +353,98 @@ msgstr "DEAD:"
 #: 5_Donde_ha_golpeado_y_a_cuantos/main.js:36
 msgid "Infectados:"
 msgstr "Infected:"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:18
+msgid "Las tres crisis del ébola"
+msgstr "The Three Ebola Crises"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:20
+msgid "víctimas directas*"
+msgstr "direct victims*"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:21
+msgid "28.000 casos"
+msgstr ""
+
+#: 6_Las_tres_crisis_del_ebola/main.js:22
+msgid "11.300 muertes"
+msgstr ""
+
+#: 6_Las_tres_crisis_del_ebola/main.js:24
+msgid "consecuencias en salud"
+msgstr "health consequences"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:25
+msgid "más de 4.000 muertes"
+msgstr "more than 4,000 additional"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:26
+msgid "maternas adicionales en 2014"
+msgstr "maternal deaths in 2014"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:28
+msgid "más de 11.000 muertes"
+msgstr "more than 11,000 additional"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:29
+msgid "adicionales por malaria"
+msgstr "deaths by malaria"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:30
+msgid "tuberculosis y VIH"
+msgstr "TB and HIV"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:32
+msgid "más de 500"
+msgstr "more than 500"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:33
+msgid "sanitarios muertos"
+msgstr "healthcare workers died"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:35
+msgid "17.000 supervivientes"
+msgstr "17,000 survivors with "
+
+#: 6_Las_tres_crisis_del_ebola/main.js:36
+msgid "con secuelas potenciales"
+msgstr "potential long-term health consequences"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:38
+msgid "consecuencias sociales y económicas"
+msgstr "social and economic consequences"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:39
+msgid "más de"
+msgstr "more than"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:40
+msgid "16.000 huérfanos"
+msgstr "16,000 orphans"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:42
+msgid "3,6 millones de personas"
+msgstr "3.6 million people"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:43
+msgid "en situación alimentaria precaria"
+msgstr "at risk of food insecurity"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:45
+msgid "3.600 millones USD"
+msgstr "3,600 million USD"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:46
+msgid "de pérdida en GDP para la región"
+msgstr "loss in GDP for the region"
+
+#: 6_Las_tres_crisis_del_ebola/main.js:48
+msgid ""
+"Fuente: OMS, PNUD, http://www.africa.undp.org/content/dam/rba/docs/Reports/"
+"ebola-west-africa.pdf"
+msgstr ""
+"Source: WHO, UNDP, http://www.africa.undp.org/content/dam/rba/docs/Reports/"
+"ebola-west-africa.pdf"
 
 #~ msgid "Letalidad"
 #~ msgstr "Case Fatality Rate:"
