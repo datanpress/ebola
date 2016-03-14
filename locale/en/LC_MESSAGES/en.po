@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-11 18:21+0100\n"
-"PO-Revision-Date: 2016-03-11 18:49+0100\n"
+"POT-Creation-Date: 2016-03-14 09:30+0100\n"
+"PO-Revision-Date: 2016-03-14 09:32+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -19,8 +19,11 @@ msgstr ""
 "X-Loco-Target-Locale: en\n"
 "X-Poedit-SearchPath-0: 1_Una_enfermedad_letal_pero_poco_contagiosa\n"
 "X-Poedit-SearchPath-1: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js\n"
+"X-Poedit-SearchPath-2: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main."
+"js\n"
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:14
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:41
 msgid "Ébola"
 msgstr "Ebola "
 
@@ -228,6 +231,78 @@ msgstr "Species:"
 #: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:181
 msgid "Mortalidad:"
 msgstr "Case fatality rate:"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:15
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:43
+msgid "Sierra Leona"
+msgstr "Sierra Leone"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:16
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:46
+msgid "6.500"
+msgstr "6,500"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:17
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:47
+msgid "2.643"
+msgstr "2,643"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:18
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:48
+msgid "1.660"
+msgstr "1,660"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:21
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:42
+msgid "Guinea"
+msgstr "Guinea"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:22
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:50
+msgid "12.000"
+msgstr "12,000"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:23
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:51
+msgid "3.227"
+msgstr "3,227"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:24
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:52
+msgid "1.366"
+msgstr "1,366"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:27
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:44
+msgid "Liberia"
+msgstr "Liberia"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:28
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:54
+msgid "2.900"
+msgstr "2,900"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:29
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:55
+msgid "2.149"
+msgstr "2,149"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:30
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:56
+msgid "3.161"
+msgstr "3,161"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:38
+msgid "El ébola frente a otras enfermedades en África"
+msgstr "Ebola Compared to Other Diseases in"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:39
+msgid "Malaria"
+msgstr "Malaria"
+
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:40
+msgid "Tuberculosis"
+msgstr "Tuberculosis"
 
 #~ msgid "Letalidad"
 #~ msgstr "Case Fatality Rate:"
