@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-14 12:38+0100\n"
-"PO-Revision-Date: 2016-03-14 12:43+0100\n"
+"POT-Creation-Date: 2016-03-14 14:58+0100\n"
+"PO-Revision-Date: 2016-03-14 14:59+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -179,58 +179,66 @@ msgid "estacional"
 msgstr "Seasonal "
 
 #: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:15
-msgid "Sierra Leona, Liberia y Guinea"
-msgstr "Sierra Leone, Liberia and Guinea"
+msgid "Sierra Leona,"
+msgstr "Sierra Leone,"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:17
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:16
+msgid "Liberia y Guinea"
+msgstr "Liberia and Guinea"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:18
 msgid "28.602"
 msgstr "28,602"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:18
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:19
 msgid "11.301"
 msgstr "11,301"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:19
-msgid "50% (promedio de los 3 países)"
-msgstr "50% (average for the 3 countries)"
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:20
+msgid "50%"
+msgstr "50%"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:71
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:135
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:143
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:21
+msgid "(promedio de los 3 países)"
+msgstr "(average for the 3 countries)"
+
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:73
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:137
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:145
 msgid "Sudán"
 msgstr "Sudan"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:95
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:111
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:127
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:97
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:113
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:129
 msgid "Gabón"
 msgstr "Gabon"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:175
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:177
 msgid "Evolución histórica de los brotes de ébola"
 msgstr "Chronology of Ebola virus disease outbreaks"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:176
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:178
 msgid "Año:"
 msgstr "Year:"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:177
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:179
 msgid "País:"
 msgstr "Country:"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:178
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:180
 msgid "Casos:"
 msgstr "Cases:"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:179
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:181
 msgid "Muertes:"
 msgstr "Deaths:"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:180
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:182
 msgid "Especies:"
 msgstr "Species:"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:181
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:183
 msgid "Mortalidad:"
 msgstr "Case fatality rate:"
 
@@ -364,11 +372,11 @@ msgstr "direct victims*"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:21
 msgid "28.000 casos"
-msgstr ""
+msgstr "28,000 cases"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:22
 msgid "11.300 muertes"
-msgstr ""
+msgstr "11,300 deaths"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:24
 msgid "consecuencias en salud"
@@ -445,6 +453,12 @@ msgid ""
 msgstr ""
 "Source: WHO, UNDP, http://www.africa.undp.org/content/dam/rba/docs/Reports/"
 "ebola-west-africa.pdf"
+
+#~ msgid "Sierra Leona, Liberia y Guinea"
+#~ msgstr "Sierra Leone, Liberia and Guinea"
+
+#~ msgid "50% (promedio de los 3 países)"
+#~ msgstr "50% (average for the 3 countries)"
 
 #~ msgid "Letalidad"
 #~ msgstr "Case Fatality Rate:"
