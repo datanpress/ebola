@@ -121,69 +121,7 @@ d3.xml("4_NOU.svg", "image/svg+xml", function(error, xml) {
       d3.selectAll(".map.sierra_leona").classed("active", false)
     }
   })
-  //
-  // d3.selectAll("._1976_sudan, ._1976_congo, ._1979, ._1994, ._1995, ._1996, ._2000, ._2001, ._2002, ._2003, ._2004, ._2007_uganda, ._2007_congo, ._2008, ._2012_congo, ._2012_uganda, ._2014, ._2014-2015")
-  //   .on("mouseover", function() {
-  //     // console.log(d3.select(this).attr('class'));
-  //     var t = d3.select(this).attr('class').replace("_","");
-  //     // console.log(t, data[t]);
-  //     d3.select('.year').text(data[t].year)
-  //     d3.select('.country').text(data[t].country)
-  //     d3.select('.cases').text(data[t].cases)
-  //     d3.select('.deaths').text(data[t].deaths)
-  //     d3.select('.species').text(data[t].species)
-  //     d3.select('.fatality_rate').text(data[t].fatality_rate)
-  //     // console.log('g._'+t)
-  //     d3.selectAll('rect.selected').classed('selected',false)
-  //     d3.select('g._'+t).selectAll('rect').filter(function(d){
-  //       return d3.select(this).style('fill') == 'rgb(253, 210, 146)'
-  //     })
-  //     .classed('selected',true)
-  //   })
-  //
-  // d3.select('.arrow_left').on('click',function(){
-  //   var s = d3.select('.selected').node().parentNode
-  //   var selected = d3.select(s).attr('class').replace("_","")
-  //
-  //   var current = dataOrder.indexOf(selected);
-  //   var next = (current+1 <= (dataOrder.length-1))? current+1 : 0;
-  //
-  //   var t = dataOrder[next] ;
-  //   d3.select('.year').text(data[t].year)
-  //   d3.select('.country').text(data[t].country)
-  //   d3.select('.cases').text(data[t].cases)
-  //   d3.select('.deaths').text(data[t].deaths)
-  //   d3.select('.species').text(data[t].species)
-  //   d3.select('.fatality_rate').text(data[t].fatality_rate)
-  //   // console.log('g._'+t)
-  //   d3.selectAll('rect.selected').classed('selected',false)
-  //   d3.select('g._'+t).selectAll('rect').filter(function(d){
-  //     return d3.select(this).style('fill') == 'rgb(253, 210, 146)'
-  //   })
-  //   .classed('selected',true)
-  // })
-  //
-  // d3.select('.arrow_right').on('click',function(){
-  //   var s = d3.select('.selected').node().parentNode
-  //   var selected = d3.select(s).attr('class').replace("_","")
-  //
-  //   var current = dataOrder.indexOf(selected);
-  //   var next = (current-1 >= 0)? current-1 : dataOrder.length-1;
-  //
-  //   var t = dataOrder[next] ;
-  //   d3.select('.year').text(data[t].year)
-  //   d3.select('.country').text(data[t].country)
-  //   d3.select('.cases').text(data[t].cases)
-  //   d3.select('.deaths').text(data[t].deaths)
-  //   d3.select('.species').text(data[t].species)
-  //   d3.select('.fatality_rate').text(data[t].fatality_rate)
-  //   // console.log('g._'+t)
-  //   d3.selectAll('rect.selected').classed('selected',false)
-  //   d3.select('g._'+t).selectAll('rect').filter(function(d){
-  //     return d3.select(this).style('fill') == 'rgb(253, 210, 146)'
-  //   })
-  //   .classed('selected',true)
-  // })
+
 
 
 });
