@@ -34,6 +34,7 @@ d3.xml("5_NOU.svg", "image/svg+xml", function(error, xml) {
 
   d3.selectAll('.fallecidos.label').text(iJS._("Fallecidos:"));
   d3.selectAll('.infectados.label').text(iJS._("Infectados:"));
+  d3.select('.source').text(iJS._("Fuente: OMS"))
 
 
 });

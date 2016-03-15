@@ -144,4 +144,5 @@
 <text transform="matrix(1 0 0 1 540.4941 336.5254)"><tspan x="0" y="0" fill="#EDEDED" font-family="Roboto" font-weight="700" font-size="14" letter-spacing="-1" class="fallecidos label">FALLECIDOS:</tspan><tspan x="88.141" y="0" font-family="Roboto" font-weight="700" font-size="14" letter-spacing="-1" class="guinea fallecidos value">2.536</tspan></text>
 <text transform="matrix(1 0 0 1 806.8594 364.5254)" fill="#3C3C3B" font-family="Roboto" font-weight="700" font-size="14" letter-spacing="-1">18</text>
 <text class="info" transform="matrix(1 0 0 1 19.8755 436.0264)" fill="#3C3C3B" font-family="Roboto" font-size="14">*sólo hubo tres infectados fuera de áfrica</text>
+<text class="source" transform="matrix(1 0 0 1 800 430)" fill="#3C3C3B" font-family="Roboto" font-weight="300" font-style="italic" font-size="10">Fuente: OMS</text>
 </svg>

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-03-11 18:24+0100\n"
-"PO-Revision-Date: 2016-03-11 18:39+0100\n"
+"POT-Creation-Date: 2016-03-15 17:30+0100\n"
+"PO-Revision-Date: 2016-03-15 17:31+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -35,58 +35,66 @@ msgstr "Nuevas infecciones por semana"
 msgid "Total number of beds"
 msgstr "Número total de camas"
 
-#: main.js:38
+#: main.js:37
+msgid ""
+"Source: ODI http://www.odi.org/sites/odi.org.uk/files/odi-assets/"
+"publications-opinion-files/9903.pdf"
+msgstr ""
+"Fuente: ODI http://www.odi.org/sites/odi.org.uk/files/odi-assets/"
+"publications-opinion-files/9903.pdf"
+
+#: main.js:39
 msgid "Mar 14"
 msgstr ""
 
-#: main.js:39
+#: main.js:40
 msgid "Abr 14"
 msgstr ""
 
-#: main.js:40
+#: main.js:41
 msgid "May 14"
 msgstr ""
 
-#: main.js:41
+#: main.js:42
 msgid "June 14"
 msgstr "Jun 14"
 
-#: main.js:42
+#: main.js:43
 msgid "July 14"
 msgstr "Jul 14"
 
-#: main.js:43
+#: main.js:44
 msgid "Aug 14"
 msgstr "Ago 14"
 
-#: main.js:44
+#: main.js:45
 msgid "Sept 14"
 msgstr "Set 14"
 
-#: main.js:45
+#: main.js:46
 msgid "Oct 14"
 msgstr "Oct 14"
 
-#: main.js:46
+#: main.js:47
 msgid "Nov 14"
 msgstr ""
 
-#: main.js:47
+#: main.js:48
 msgid "Dec 14"
 msgstr "Dic 14"
 
-#: main.js:48
+#: main.js:49
 msgid "Jan 15"
 msgstr "Ene 15"
 
-#: main.js:49
+#: main.js:50
 msgid "Feb 15"
 msgstr ""
 
-#: main.js:50
+#: main.js:51
 msgid "Mar 15"
 msgstr ""
 
-#: main.js:51
+#: main.js:52
 msgid "Abr 15"
 msgstr ""
