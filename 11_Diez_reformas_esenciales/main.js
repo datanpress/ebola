@@ -1,17 +1,13 @@
-
 var lang = getParameterByName('lang');
-if(lang!=null && lang!=""){
-  //set the locale in which the messages will be translated
-  iJS.i18n.setlocale(lang) ;
-  //add domain where to find messages data
-  iJS.i18n.bindtextdomain(lang, "../locale", "po") ;
-  //Always do this after a `setlocale` or a `bindtextdomain` call.
-  iJS.i18n.try_load_lang() ; //will load and parse messages data from the setting catalog.
+if(lang!='en'){
+  var pathSvg= "11_nou.svg";
+}else{
+  var pathSvg= "11_nou_en.svg";
 }
 
 
 
-d3.xml("11_nou.svg", "image/svg+xml", function(error, xml) {
+d3.xml(pathSvg, "image/svg+xml", function(error, xml) {
   if (error) throw error;
   document.body.appendChild(xml.documentElement);
   //translate
