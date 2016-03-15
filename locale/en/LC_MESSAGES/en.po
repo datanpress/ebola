@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-15 17:30+0100\n"
-"PO-Revision-Date: 2016-03-15 17:30+0100\n"
+"POT-Creation-Date: 2016-03-15 18:24+0100\n"
+"PO-Revision-Date: 2016-03-15 18:24+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -23,6 +23,7 @@ msgstr ""
 "js\n"
 "X-Poedit-SearchPath-3: 5_Donde_ha_golpeado_y_a_cuantos/main.js\n"
 "X-Poedit-SearchPath-4: 6_Las_tres_crisis_del_ebola/main.js\n"
+"X-Poedit-SearchPath-5: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js\n"
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:14
 #: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:41
@@ -476,6 +477,84 @@ msgid ""
 msgstr ""
 "Source: WHO, UNDP, http://www.africa.undp.org/content/dam/rba/docs/Reports/"
 "ebola-west-africa.pdf"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:18
+msgid "Recursos necesarios de acuerdo a la ONU:"
+msgstr "Resources Needed According to UN:"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:19
+msgid "2.270"
+msgstr "2,27"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:20
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:22
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:23
+msgid "millones de dólares"
+msgstr "billion dollars"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:25
+msgid "Pendientes:"
+msgstr "Pending:"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:26
+msgid "710.000.000"
+msgstr "710,000,000"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:28
+msgid "Cubiertos:"
+msgstr "Paid:"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:29
+msgid "1.560.000.000"
+msgstr "1,560,000,000"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:31
+msgid "Servicios comunes"
+msgstr "Common services"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:32
+msgid "Frenar la enfermedad"
+msgstr "Stopping the outbreak"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:33
+msgid "-Seguimiento enfermos y entierros seguros"
+msgstr "-Tracing infected people and safe burials"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:34
+msgid "Atender a las víctimas"
+msgstr "Treating the infected"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:35
+msgid "-Atención a enfermos y profesionales"
+msgstr "-Medical care for patients and healthcare workers"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:36
+msgid "Sostener los sistemas de salud"
+msgstr "Supporting healthcare systems"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:37
+msgid "-Seguridad alimentaria, servicios básicos y recuperación económica"
+msgstr "-Food security, basic services, economic recovery"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:38
+msgid "Ofrecer estabilidad a los países afectados"
+msgstr "Preserving stability in affected countries"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:39
+msgid "-Materiales de transporte y movilización sociales"
+msgstr "-Materials supply, transport and social mobilisation"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:40
+msgid "Prevenir nuevos contagios"
+msgstr "Preventing new outbreaks"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:41
+msgid "-Prevención y gestión del riesgo de contagio"
+msgstr "-Prevention and management of contagion risk"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:43
+msgid "Fuente: Financial Tracking Service de OCHA"
+msgstr "Source: OCHA Financial Tracking Service"
 
 #~ msgid "*sólo hubo tres infectados fuera de áfrica"
 #~ msgstr "*only three people were infected outside"
