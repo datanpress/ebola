@@ -12,14 +12,14 @@ if(lang!=null && lang!=""){
 var data = {
   "ebola": {
     "name":iJS._("Ébola"),
-    "VIRUS":iJS._("Ébola (brote 2014)"),
+    "VIRUS":iJS._("Ebola (especie Zaire)"),
     "Letalidad":"70%",
     "R0":iJS._("1,5-2,5"),
     "Transmisión":iJS._("Contacto con fluidos corporales")
   },
   "hiv": {
-    "name":iJS._("HIV"),
-    "VIRUS":iJS._("HIV"),
+    "name":iJS._("VIH"),
+    "VIRUS":iJS._("VIH"),
     "Letalidad":iJS._("80-90% (si no tratado)"),
     "R0":"2-5",
     "Transmisión":iJS._("Transmisión sexual, sangre, leche materna")
@@ -99,8 +99,13 @@ d3.xml("1b_copia.svg", "image/svg+xml", function(error, xml) {
       // d3.select(this).text(iJS._(d3.select(this).text()))
       d3.select(this).selectAll('tspan').text( iJS._(d3.select(this).text()) )
     })
-  d3.select(".influenza_e1").text(iJS._("Influenza"))
-  d3.select(".influenza_e2").text(iJS._("estacional"))
+  if (lang=="en"){
+    d3.select(".influenza_e1").text(iJS._("Estacional"))
+    d3.select(".influenza_e2").text(iJS._("Influenza"))
+  }else{
+    d3.select(".influenza_e1").text(iJS._("Influenza"))
+    d3.select(".influenza_e2").text(iJS._("estacional"))
+  }
   //END translate
 
   //select ebola

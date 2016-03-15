@@ -21,7 +21,7 @@ d3.xml("5_NOU.svg", "image/svg+xml", function(error, xml) {
   d3.select('.label.guinea').text(iJS._("Guinea"));
   d3.select('.label.others').text(iJS._("Otros*"));
   d3.select('.label.others').text(iJS._("Otros*"));
-  d3.select('.info').text(iJS._("*sólo hubo tres infectados fuera de áfrica"));
+  d3.select('.info').text(iJS._("*Sólo hubo tres infectados fuera de África"));
 
   d3.select('.sierra_leona.infectados.value').text(iJS._("14.124"));
   d3.select('.sierra_leona.fallecidos.value').text(iJS._("3.956"));
@@ -32,7 +32,7 @@ d3.xml("5_NOU.svg", "image/svg+xml", function(error, xml) {
   d3.select('.guinea.infectados.value').text(iJS._("3.804"));
   d3.select('.guinea.fallecidos.value').text(iJS._("2.536"));
 
-  d3.selectAll('.fallecidos.label').text(iJS._("FALLECIDOS:"));
+  d3.selectAll('.fallecidos.label').text(iJS._("Fallecidos:"));
   d3.selectAll('.infectados.label').text(iJS._("Infectados:"));
 
 
