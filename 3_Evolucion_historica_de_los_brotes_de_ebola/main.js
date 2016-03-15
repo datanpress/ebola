@@ -39,7 +39,7 @@ var data ={
   "2012_uganda": {
     "year":"2012",
     "country":"Uganda",
-    "species":"Sudan",
+    "species":iJS._("Sudán"),
     "cases":24,
     "deaths":17,
     "fatality_rate":"71%"
@@ -71,7 +71,7 @@ var data ={
   "2004": {
     "year":"2004",
     "country":iJS._("Sudán"),
-    "species":"Sudan",
+    "species":iJS._("Sudán"),
     "cases":17,
     "deaths":7,
     "fatality_rate":"41%"
@@ -103,7 +103,7 @@ var data ={
   "2000": {
     "year":"2000",
     "country":"Uganda",
-    "species":"Sudan",
+    "species":iJS._("Sudán"),
     "cases":425,
     "deaths":224,
     "fatality_rate":"53%"
@@ -135,7 +135,7 @@ var data ={
   "1979": {
     "year":"1979",
     "country":iJS._("Sudán"),
-    "species":"Sudan",
+    "species":iJS._("Sudán"),
     "cases":34,
     "deaths":22,
     "fatality_rate":"65%"
@@ -143,7 +143,7 @@ var data ={
   "1976_sudan": {
     "year":"1976",
     "country":iJS._("Sudán"),
-    "species":"Sudan",
+    "species":iJS._("Sudán"),
     "cases":284,
     "deaths":151,
     "fatality_rate":"53%"
@@ -228,6 +228,16 @@ d3.xml("3_NOU.svg", "image/svg+xml", function(error, xml) {
     d3.select('.deaths').text(data[t].deaths)
     d3.select('.species').text(data[t].species)
     d3.select('.fatality_rate').text(data[t].fatality_rate)
+    if (typeof data[t].country2 != 'undefined') {
+      d3.select('.country2').text(data[t].country2)
+    }else{
+      d3.select('.country2').text('')
+    }
+    if (typeof data[t].country2 != 'undefined') {
+      d3.select('.fatality_rate2').text(data[t].fatality_rate2)
+    }else{
+      d3.select('.fatality_rate2').text('')
+    }
     // console.log('g._'+t)
     d3.selectAll('rect.selected').classed('selected',false)
     d3.select('g._'+t).selectAll('rect').filter(function(d){
@@ -250,6 +260,16 @@ d3.xml("3_NOU.svg", "image/svg+xml", function(error, xml) {
     d3.select('.deaths').text(data[t].deaths)
     d3.select('.species').text(data[t].species)
     d3.select('.fatality_rate').text(data[t].fatality_rate)
+    if (typeof data[t].country2 != 'undefined') {
+      d3.select('.country2').text(data[t].country2)
+    }else{
+      d3.select('.country2').text('')
+    }
+    if (typeof data[t].country2 != 'undefined') {
+      d3.select('.fatality_rate2').text(data[t].fatality_rate2)
+    }else{
+      d3.select('.fatality_rate2').text('')
+    }
     // console.log('g._'+t)
     d3.selectAll('rect.selected').classed('selected',false)
     d3.select('g._'+t).selectAll('rect').filter(function(d){

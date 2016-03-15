@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-14 14:58+0100\n"
-"PO-Revision-Date: 2016-03-15 16:39+0100\n"
+"POT-Creation-Date: 2016-03-15 17:14+0100\n"
+"PO-Revision-Date: 2016-03-15 17:14+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -30,8 +30,8 @@ msgid "Ébola"
 msgstr "Ebola "
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:15
-msgid "Ébola (brote 2014)"
-msgstr "Ebola (2014 outbreak)"
+msgid "Ebola (especie Zaire)"
+msgstr "Ebola (Zaire species)"
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:17
 msgid "1,5-2,5"
@@ -43,7 +43,7 @@ msgstr "Contact with bodily fluids"
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:21
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:22
-msgid "HIV"
+msgid "VIH"
 msgstr "HIV"
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:23
@@ -98,7 +98,8 @@ msgid "Gotas saliva en aire"
 msgstr "Airborne respiratory droplets  "
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:49
-#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:102
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:104
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:106
 msgid "Influenza"
 msgstr "Influenza "
 
@@ -168,13 +169,17 @@ msgstr "Average number of people that"
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:93
 msgid "que un enfermo puede infectar:"
-msgstr "can be by one single patient "
+msgstr "can be infected by one single patient "
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:94
 msgid "Transmisión:"
 msgstr "Transmission:"
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:103
+msgid "Estacional"
+msgstr "Seasonal"
+
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:107
 msgid "estacional"
 msgstr "Seasonal "
 
@@ -202,9 +207,14 @@ msgstr "50%"
 msgid "(promedio de los 3 países)"
 msgstr "(average for the 3 countries)"
 
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:42
 #: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:73
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:74
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:106
 #: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:137
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:138
 #: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:145
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:146
 msgid "Sudán"
 msgstr "Sudan"
 
@@ -307,7 +317,7 @@ msgstr "3,161"
 
 #: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:38
 msgid "El ébola frente a otras enfermedades en África"
-msgstr "Ebola Compared to Other Diseases in"
+msgstr "Ebola Compared to Other Diseases in Africa"
 
 #: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:39
 msgid "Malaria"
@@ -317,9 +327,13 @@ msgstr "Malaria"
 msgid "Tuberculosis"
 msgstr "Tuberculosis"
 
+#: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:57
+msgid "Muertes por año, según las estimaciones más recientes de la OMS"
+msgstr "Deaths per year, according to the most recent estimates by WHO"
+
 #: 5_Donde_ha_golpeado_y_a_cuantos/main.js:18
 msgid "Dónde ha golpeado y a cuántos"
-msgstr "EN: Where Has Ebola Hit and How Many Has it Killed?"
+msgstr "Where Has Ebola Hit and How Many Has it Killed?"
 
 #: 5_Donde_ha_golpeado_y_a_cuantos/main.js:22
 #: 5_Donde_ha_golpeado_y_a_cuantos/main.js:23
@@ -327,8 +341,8 @@ msgid "Otros*"
 msgstr "Others*"
 
 #: 5_Donde_ha_golpeado_y_a_cuantos/main.js:24
-msgid "*sólo hubo tres infectados fuera de áfrica"
-msgstr "*only three people were infected outside"
+msgid "*Sólo hubo tres infectados fuera de África"
+msgstr "*Only three people were infected outside Africa"
 
 #: 5_Donde_ha_golpeado_y_a_cuantos/main.js:26
 msgid "14.124"
@@ -355,8 +369,8 @@ msgid "2.536"
 msgstr "2,536"
 
 #: 5_Donde_ha_golpeado_y_a_cuantos/main.js:35
-msgid "FALLECIDOS:"
-msgstr "DEAD:"
+msgid "Fallecidos:"
+msgstr ""
 
 #: 5_Donde_ha_golpeado_y_a_cuantos/main.js:36
 msgid "Infectados:"
@@ -453,6 +467,18 @@ msgid ""
 msgstr ""
 "Source: WHO, UNDP, http://www.africa.undp.org/content/dam/rba/docs/Reports/"
 "ebola-west-africa.pdf"
+
+#~ msgid "*sólo hubo tres infectados fuera de áfrica"
+#~ msgstr "*only three people were infected outside"
+
+#~ msgid "FALLECIDOS:"
+#~ msgstr "DEAD:"
+
+#~ msgid "Ébola (brote 2014)"
+#~ msgstr "Ebola (2014 outbreak)"
+
+#~ msgid "HIV"
+#~ msgstr "HIV"
 
 #~ msgid "Sierra Leona, Liberia y Guinea"
 #~ msgstr "Sierra Leone, Liberia and Guinea"
