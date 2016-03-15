@@ -1520,14 +1520,14 @@
 	c-0.08-0.102-0.16-0.204-0.24-0.307c-1.227-1.609-1.703-3.412-1.427-5.408c0.284-2.006,1.235-3.613,2.854-4.826
 	c1.61-1.211,3.414-1.68,5.41-1.404C347.079,404.922,348.227,405.393,349.195,406.146z"/>
 <text transform="matrix(1 0 0 1 90.3584 390.894)">
-	<tspan x="0" y="0" fill="#008EAB" font-family="Roboto" font-weight="700" font-size="23" class="s2">más de 11.000 muertes</tspan>
+	<tspan text-anchor="end" x="280" y="0" fill="#008EAB" font-family="Roboto" font-weight="700" font-size="23" class="s2">más de 11.000 muertes</tspan>
 	<tspan x="244.937" y="0" fill="#008EAB" font-family="Roboto" font-weight="700" font-size="19">  </tspan>
-	<tspan x="47.979" y="22.799" font-family="Roboto" font-size="19" class="s2_t">adicionales por malaria </tspan>
-	<tspan x="96.564" y="45.6" font-family="Roboto" font-size="19" class="s2_t2">tuberculosis y VIH</tspan></text>
+	<tspan text-anchor="end" x="260" y="22.799" font-family="Roboto" font-size="19" class="s2_t">adicionales por malaria </tspan>
+	<tspan text-anchor="end" x="250" y="45.6" font-family="Roboto" font-size="19" class="s2_t2">tuberculosis y VIH</tspan></text>
 <text transform="matrix(1 0 0 1 533.6543 385.894)">
-	<tspan x="0" y="0" fill="#008EAB" font-family="Roboto" font-weight="700" font-size="23" class="s4">17.000 supervivientes</tspan>
+	<tspan text-anchor="end" x="245" y="0" fill="#008EAB" font-family="Roboto" font-weight="700" font-size="23" class="s4">17.000 supervivientes</tspan>
 	<tspan x="229.641" y="0" fill="#008EAB" font-family="Roboto" font-weight="700" font-size="19">  </tspan>
-	<tspan x="20.993" y="22.799" font-family="Roboto" font-size="19" class="s4_t">con secuelas potenciales</tspan>
+	<tspan text-anchor="end" x="230" y="22.799" font-family="Roboto" font-size="19" class="s4_t">con secuelas potenciales</tspan>
 </text>
 <g class="s4">
 	<g opacity="0.8">
@@ -2360,8 +2360,8 @@
 		</g>
 	</g>
 	<text transform="matrix(1 0 0 1 94.1655 705.9043)">
-		<tspan x="0" y="0" font-family="Roboto" font-weight="700" font-size="20" class="s5_t">más de</tspan>
-		<tspan x="-46.978" y="24" font-family="Roboto" font-weight="700" font-size="20" class="s5_t1">16.000 huérfanos</tspan>
+		<tspan x="40" y="0" font-family="Roboto" font-weight="700" font-size="20" class="s5_t" text-anchor="middle">más de</tspan>
+		<tspan x="40" y="24" font-family="Roboto" font-weight="700" font-size="20" class="s5_t1" text-anchor="middle">16.000 huérfanos</tspan>
 	</text>
 </g>
 <g class="s6">
@@ -2395,8 +2395,8 @@
 		</g>
 	</g>
 	<text transform="matrix(1 0 0 1 279.5107 705.9043)">
-		<tspan x="0" y="0" font-family="Roboto" font-weight="700" font-size="20" class="s6_t">3,6 millones de personas </tspan>
-		<tspan x="-32.461" y="24" font-family="Roboto" font-weight="700" font-size="20" class="s6_t1">en situación alimentaria precaria</tspan>
+		<tspan x="120" y="0" font-family="Roboto" font-weight="700" font-size="20" class="s6_t" text-anchor="middle">3,6 millones de personas </tspan>
+		<tspan x="120" y="24" font-family="Roboto" font-weight="700" font-size="20" class="s6_t1" text-anchor="middle">en situación alimentaria precaria</tspan>
 	</text>
 </g>
 <g class="s7">
@@ -2562,8 +2562,8 @@
 		</g>
 	</g>
 	<text transform="matrix(1 0 0 1 625.5127 705.9043)">
-		<tspan x="0" y="0" font-family="Roboto" font-weight="700" font-size="20" class="s7_t">3.600 millones USD</tspan>
-		<tspan x="-58.916" y="24" font-family="Roboto" font-weight="700" font-size="20" class="s7_t1">de pérdida en GDP para la región</tspan>
+		<tspan x="100" y="0" font-family="Roboto" font-weight="700" font-size="20" class="s7_t" text-anchor="middle">3.600 millones USD</tspan>
+		<tspan x="100" y="24" font-family="Roboto" font-weight="700" font-size="20" class="s7_t1" text-anchor="middle">de pérdida en GDP para la región</tspan>
 	</text>
 </g>
 <text class="fuente" transform="matrix(1 0 0 1 22.8594 780.9043)" font-family="Roboto" font-size="10">Fuente: OMS, PNUD, http://www.africa.undp.org/content/dam/rba/docs/Reports/ebola-west-africa.pdf</text>
