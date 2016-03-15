@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-15 17:14+0100\n"
-"PO-Revision-Date: 2016-03-15 17:14+0100\n"
+"POT-Creation-Date: 2016-03-15 17:30+0100\n"
+"PO-Revision-Date: 2016-03-15 17:30+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -98,8 +98,8 @@ msgid "Gotas saliva en aire"
 msgstr "Airborne respiratory droplets  "
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:49
-#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:104
-#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:106
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:105
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:107
 msgid "Influenza"
 msgstr "Influenza "
 
@@ -175,11 +175,16 @@ msgstr "can be infected by one single patient "
 msgid "Transmisión:"
 msgstr "Transmission:"
 
-#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:103
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:95
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:184
+msgid "Fuente: OMS, CDC"
+msgstr "Source: WHO, CDC"
+
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:104
 msgid "Estacional"
 msgstr "Seasonal"
 
-#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:107
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:108
 msgid "estacional"
 msgstr "Seasonal "
 
@@ -370,11 +375,15 @@ msgstr "2,536"
 
 #: 5_Donde_ha_golpeado_y_a_cuantos/main.js:35
 msgid "Fallecidos:"
-msgstr ""
+msgstr "Dead:"
 
 #: 5_Donde_ha_golpeado_y_a_cuantos/main.js:36
 msgid "Infectados:"
 msgstr "Infected:"
+
+#: 5_Donde_ha_golpeado_y_a_cuantos/main.js:37
+msgid "Fuente: OMS"
+msgstr "Source: WHO"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:18
 msgid "Las tres crisis del ébola"

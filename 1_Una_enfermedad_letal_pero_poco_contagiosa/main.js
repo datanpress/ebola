@@ -92,6 +92,7 @@ d3.xml("1b_copia.svg", "image/svg+xml", function(error, xml) {
   d3.select('.labelN1').text(iJS._("Número promedio de personas"));
   d3.select('.labelN2').text(iJS._("que un enfermo puede infectar:"));
   d3.select('.labelT').text(iJS._("Transmisión:"));
+  d3.select('.source').text(iJS._("Fuente: OMS, CDC"))
   d3.selectAll("text.hiv,text.viruela,text.mers,text.sars,text.influenza,text.polio,text.sarampion,text.varicela,text.ebola")
     .each(function(d,i){
       // console.log(this,d,i)

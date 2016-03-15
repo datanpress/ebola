@@ -50,8 +50,8 @@
 <text class="v4" transform="matrix(1 0 0 1 147.2051 273.6953)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Profectus </tspan><tspan x="0" y="13.199" font-family="Roboto" font-size="11">Biosciences Inc</tspan></text>
 <text class="v4" transform="matrix(1 0 0 1 272.5176 273.6953)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Replicative</tspan><tspan x="0" y="13.199" font-family="Roboto" font-size="11">viral vector</tspan></text>
 <text class="v4" transform="matrix(1 0 0 1 384.6973 280.2949)" font-family="Roboto" font-size="11">Initiated</text>
-<text class="v4"transform="matrix(1 0 0 1 676 280.2949)" font-family="Roboto" font-size="11">-</text>
-<text class="v4"transform="matrix(1 0 0 1 503.3164 280.2949)" font-family="Roboto" font-size="11">-</text>
+<text class="v4" transform="matrix(1 0 0 1 676 280.2949)" font-family="Roboto" font-size="11">-</text>
+<text class="v4" transform="matrix(1 0 0 1 503.3164 280.2949)" font-family="Roboto" font-size="11">-</text>
 <text class="v5" transform="matrix(1 0 0 1 48.998 313.4668)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Recombinant </tspan><tspan x="0" y="13.199" font-family="Roboto" font-size="11">influenza- </tspan><tspan x="0" y="26.4" font-family="Roboto" font-size="11">EBOV</tspan></text>
 <text class="v5" transform="matrix(1 0 0 1 147.2046 320.666)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Russian MoH</tspan><tspan x="0" y="13.201" font-family="Roboto" font-size="11"></tspan></text>
 <text class="v5" transform="matrix(1 0 0 1 272.5176 320.959)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Replicative </tspan><tspan x="0" y="13.201" font-family="Roboto" font-size="11">viral vector</tspan></text>
@@ -63,7 +63,7 @@
 <text class="v6" transform="matrix(1 0 0 1 272.5171 374.252)" font-family="Roboto" font-size="11">Nanoparticles</text>
 <text class="v6" transform="matrix(1 0 0 1 384.6953 367.6523)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completed</tspan><tspan x="0" y="13.199" font-family="Roboto" font-size="11">safe</tspan></text>
 <text class="v6" transform="matrix(1 0 0 1 503.3164 374.252)" font-family="Roboto" font-size="11">-</text>
-<text class="v6"transform="matrix(1 0 0 1 676 374.252)" font-family="Roboto" font-size="11">-</text>
+<text class="v6" transform="matrix(1 0 0 1 676 374.252)" font-family="Roboto" font-size="11">-</text>
 <rect x="51" y="404.947" fill="none" width="817" height="42"/>
 <text transform="matrix(1 0 0 1 51 413.1973)">
 	<tspan x="0" y="0" font-family="Roboto" font-size="11">Other Ebola vaccines in the preclinical phase of development (testing in animal models) have given encouraging results. Some examples are the rAd5 vector-vaccine </tspan>

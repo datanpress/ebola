@@ -181,6 +181,7 @@ d3.xml("3_NOU.svg", "image/svg+xml", function(error, xml) {
   d3.select('.Ldeaths').text(iJS._("Muertes:"));
   d3.select('.Lspecies').text(iJS._("Especies:"));
   d3.select('.Lfatality_rate').text(iJS._("Mortalidad:"));
+  d3.select('.source').text(iJS._("Fuente: OMS, CDC"))
   //END translate
 
 
