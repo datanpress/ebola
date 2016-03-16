@@ -14,7 +14,7 @@
 <text transform="matrix(1 0 0 1 384.6978 71.6157)"><tspan x="0" y="0" font-family="Roboto" font-weight="700" font-size="14">Fase I</tspan><tspan x="0" y="16.8" font-family="Roboto" font-size="10">(seguridad)</tspan></text>
 <text transform="matrix(1 0 0 1 503.3164 71.6157)"><tspan x="0" y="0" font-family="Roboto" font-weight="700" font-size="14">Fase II</tspan><tspan x="0" y="16.8" font-family="Roboto" font-size="10">(seguridad e </tspan><tspan x="0" y="30" font-family="Roboto" font-size="10">inmunogenicidad)</tspan></text>
 <text transform="matrix(1 0 0 1 668 71.6157)"><tspan x="0" y="0" font-family="Roboto" font-weight="700" font-size="14">Fase III</tspan><tspan x="0" y="16.8" font-family="Roboto" font-size="10">(inmunogenicidad </tspan><tspan x="0" y="30" font-family="Roboto" font-size="10">y eficacia)</tspan></text>
-<text transform="matrix(1 0 0 1 48.9995 137.4585)" font-family="Roboto" font-size="11">rVSV-ZEBOV</text>
+<text class="v1" transform="matrix(1 0 0 1 48.9995 137.4585)" font-family="Roboto" font-size="11">rVSV-ZEBOV</text>
 <text class="v1" transform="matrix(1 0 0 1 147.2061 130.8589)"><tspan x="0" y="0" font-family="Roboto" font-size="11">NewLink Genetics </tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">y Merck Vaccines</tspan></text>
 <text class="v1" transform="matrix(1 0 0 1 272.5166 130.8589)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Vector viral</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">replicativo</tspan></text>
 <text class="v1" transform="matrix(1 0 0 1 384.6968 130.8589)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completado</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">Segura</tspan></text>
