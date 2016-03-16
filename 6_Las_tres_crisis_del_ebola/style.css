@@ -1,3 +1,19 @@
+/* svg responsive*/
+body{
+  height: 0;
+  padding-top: 48%;
+  position: relative;
+}
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:auto;
+}
+
+
+
 .deaths.active circle,
 .cases.active circle{
   stroke:red;
