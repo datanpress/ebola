@@ -48,4 +48,28 @@ d3.xml("8_NOU.svg", "image/svg+xml", function(error, xml) {
   // d3.select('.country.sierra_leona').text(iJS._("Sierra Leona"));
   // d3.select('.country.liberia').text(iJS._("Liberia"));
 
+  d3.selectAll(".r_label1, .r_label2, .r_label3, .r_label4, .r_label5, .r_label6, \
+  .label1, .label2, .label2_2, .label3, .label3_3, .label4, .label4_2, .label5, .label5_2, .label6, .label6_2").on('mouseover',function(){
+    var c =d3.select(this).attr("class").replace("r_","").replace("_2","");
+    // console.log(c)
+    d3.select("."+c).classed('active',true);
+    d3.select("."+c+"_2").classed('active',true);
+  })
+  d3.selectAll(".r_label1, .r_label2, .r_label3, .r_label4, .r_label5, .r_label6, \
+  .label1, .label2, .label2_2, .label3, .label3_3, .label4, .label4_2, .label5, .label5_2, .label6, .label6_2").on('mouseout',function(){
+    d3.selectAll(".active").classed('active',false);
+  })
+
+  d3.selectAll('.cubiertos, .label_cubiertos, .value_cubiertos, .pendientes, .label_pendientes, .value_pendientes').on('mouseover', function(){
+    // d3.select(this).classed('active',true)
+      var c =d3.select(this).attr("class").replace("label_","").replace("value_","");
+      console.log('c',d3.select(this).attr("class"),c)
+      d3.selectAll('.'+c+', .label_'+c+', .value_'+c).classed('highlight',true)
+      // console.log('.'+c, ', .label_'+c+', .value_'+c)
+  })
+  d3.selectAll('.cubiertos, .label_cubiertos, value_cubiertos, .pendientes, .label_pendientes, .value_pendientes').on('mouseout', function(){
+    // d3.select(this).classed('active',true)
+    d3.selectAll(".highlight").classed('highlight',false);
+  })
+
 });

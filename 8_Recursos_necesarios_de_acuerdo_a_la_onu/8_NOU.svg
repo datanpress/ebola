@@ -19,23 +19,14 @@
 	<rect x="68.861" y="243.024" fill="#FFFFFF" width="63.991" height="56.382"/>
 	<rect x="68.863" y="308.286" fill="#FFFFFF" width="63.991" height="56.382"/>
 </g>
-<rect x="16.869" y="71.759" fill="#F59C00" width="595.13" height="91.15"/>
-<rect x="611.999" y="71.759" opacity="0.4" fill="#F59C00" width="270.861" height="91.15"/>
+<rect class="cubiertos" x="16.869" y="71.759" fill="#F59C00" width="595.13" height="91.15"/>
+<rect class="pendientes" x="611.999" y="71.759" opacity="0.4" fill="#F59C00" width="270.861" height="91.15"/>
 <text transform="matrix(1 0 0 1 16.8687 35)">
 	<tspan text-anchor="end" class="title" x="580" y="0" font-family="Roboto" font-weight="700" font-size="30">Recursos necesarios de acuerdo a la ONU: </tspan>
 	<tspan class="title2" x="575.656" y="0" fill="#F59C00" font-family="Roboto" font-weight="700" font-size="30">2.270</tspan>
 </text>
-<image overflow="visible" width="644" height="422" xlink:href="08_2015_crop.png"  transform="matrix(0.9999 0 0 0.9999 958.5171 -26.8125)">
-</image>
 <rect y="549.899" fill="#00B0E9" width="590.641" height="421.948"/>
-<g>
 
-		<image overflow="visible" width="586" height="412" xlink:href="08_2015_cropb.png"  transform="matrix(0.9999 0 0 0.9999 0.1958 556.9023)">
-	</image>
-
-		<image overflow="visible" width="39" height="412" xlink:href="08_2015_crop_recurs.png"  transform="matrix(0.327 0 0 0.9999 577.8921 556.9014)">
-	</image>
-</g>
 <rect x="1063.612" y="426.258" fill="#BA8046" width="257.248" height="54.666"/>
 <rect x="1063.612" y="494.039" fill="#BA8046" width="257.248" height="54.666"/>
 <rect x="1063.612" y="561.092" fill="#BA8046" width="257.248" height="54.666"/>
@@ -95,12 +86,12 @@
 	<tspan x="193.383" y="0" font-family="Roboto" font-weight="700" font-size="19"> </tspan>
 	<tspan class="value_cubiertos" x="0" y="22.8" fill="#575756" font-family="Roboto" font-weight="700" font-size="19">1.560.000.000 </tspan>
 </text>
-<rect x="67.861" y="174.762" fill="#EDEDED" width="324.998" height="54.813"/>
+<rect class="r_label1" x="67.861" y="174.762" fill="#EDEDED" width="324.998" height="54.813"/>
 <text class="label1" transform="matrix(1 0 0 1 74.8618 208.1504)" fill="#575756" font-family="Roboto" font-size="18">Servicios comunes</text>
-<rect x="67.861" y="242.684" fill="#EDEDED" width="324.998" height="54.813"/>
+<rect class="r_label2" x="67.861" y="242.684" fill="#EDEDED" width="324.998" height="54.813"/>
 <text transform="matrix(1 0 0 1 74.8638 268.6807)"><tspan class="label2" x="0" y="0" fill="#575756" font-family="Roboto" font-size="18">Frenar la enfermedad</tspan><tspan class="label2_2" x="0" y="16.8" fill="#575756" font-family="Roboto" font-size="14">-Seguimiento enfermos y entierros seguros</tspan></text>
-<rect x="67.861" y="309.934" fill="#EDEDED" width="324.998" height="54.813"/>
-<text transform="matrix(1 0 0 1 74.8638 334.1504)"><tspan class="label2" x="0" y="0" fill="#575756" font-family="Roboto" font-size="18">Atender a las victimas</tspan><tspan class="label3_2" x="0" y="16.801" fill="#575756" font-family="Roboto" font-size="14">-Atención a enfermos y profesionales</tspan></text>
+<rect class="r_label3" x="67.861" y="309.934" fill="#EDEDED" width="324.998" height="54.813"/>
+<text transform="matrix(1 0 0 1 74.8638 334.1504)"><tspan class="label3" x="0" y="0" fill="#575756" font-family="Roboto" font-size="18">Atender a las victimas</tspan><tspan class="label3_2" x="0" y="16.801" fill="#575756" font-family="Roboto" font-size="14">-Atención a enfermos y profesionales</tspan></text>
 <g>
 	<line fill="#F1D597" x1="611.999" y1="79.159" x2="611.999" y2="376.909"/>
 	<g>
@@ -174,11 +165,11 @@
 		</g>
 	</g>
 </g>
-<rect x="457.426" y="174.195" fill="#EDEDED" width="425.434" height="54.812"/>
+<rect class="r_label4" x="457.426" y="174.195" fill="#EDEDED" width="425.434" height="54.812"/>
 <text transform="matrix(1 0 0 1 466.9839 196.6543)"><tspan class="label4" x="0" y="0" fill="#575756" font-family="Roboto" font-size="18">Sostener los sistemas de salud</tspan><tspan class="label4_2" x="0" y="16.799" fill="#575756" font-family="Roboto" font-size="14" letter-spacing="-1">-Seguridad alimentaria, servicios básicos y recuperación económica</tspan></text>
-<rect x="457.426" y="243.187" fill="#EDEDED" width="425.434" height="54.813"/>
+<rect class="r_label5" x="457.426" y="243.187" fill="#EDEDED" width="425.434" height="54.813"/>
 <text transform="matrix(1 0 0 1 466.9839 268.0059)"><tspan class="label5" x="0" y="0" fill="#575756" font-family="Roboto" font-size="18">Ofrecer estabilidad a los países afectados</tspan><tspan class="label5_2" x="0" y="16.799" fill="#575756" font-family="Roboto" font-size="14">-Materiales de transporte y movilización socials</tspan></text>
-<rect x="457.426" y="308.323" fill="#EDEDED" width="425.434" height="55.848"/>
+<rect class="r_label6" x="457.426" y="308.323" fill="#EDEDED" width="425.434" height="55.848"/>
 <text transform="matrix(1 0 0 1 466.9839 331.6543)"><tspan class="label6" x="0" y="0" fill="#575756" font-family="Roboto" font-size="18">Prevenir nuevos contagios</tspan><tspan class="label6_2" x="0" y="16.799" fill="#575756" font-family="Roboto" font-size="14">-Prevención y gestión del riesgo de contagio</tspan></text>
 <text transform="matrix(1 0 0 1 20 375)" font-size="10" font-style="italic" font-weight="300" font-family="Roboto" fill="#3C3C3B" class="source">Fuente: Financial Tracking Service de OCHA</text>
 </svg>
