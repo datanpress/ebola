@@ -98,7 +98,7 @@ d3.xml("1b_copia.svg", "image/svg+xml", function(error, xml) {
       // console.log(this,d,i)
       // console.log(d3.select(this).selectAll('tspan').text())
       // d3.select(this).text(iJS._(d3.select(this).text()))
-      d3.select(this).selectAll('tspan').text( iJS._(d3.select(this).text()) )
+      d3.select(this).selectAll('tspan').text( iJS._(d3.select(this).text().trim()) )
     })
   if (lang=="en"){
     d3.select(".influenza_e1").text(iJS._("Estacional"))
