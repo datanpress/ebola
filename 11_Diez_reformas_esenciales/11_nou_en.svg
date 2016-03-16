@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
@@ -36,9 +37,9 @@
      inkscape:window-height="739"
      id="namedview163"
      showgrid="false"
-     inkscape:zoom="0.85818182"
-     inkscape:cx="485.53356"
-     inkscape:cy="302.16438"
+     inkscape:zoom="1.7163636"
+     inkscape:cx="371.88026"
+     inkscape:cy="160.97092"
      inkscape:window-x="1400"
      inkscape:window-y="282"
      inkscape:window-maximized="1"
@@ -107,7 +108,7 @@
      font-weight="700"
      font-size="30"
      id="text21"
-     style="font-weight:700;font-size:30px;font-family:Roboto;fill:#1d1d1b">Ten Essential Reforms</text>
+     style="font-weight:700;font-size:30px;font-family:Roboto;fill:#1d1d1b">10 Essential Reforms</text>
 <text
      font-weight="700"
      font-size="16"
@@ -194,8 +195,8 @@
      transform="translate(33.48,313)"
      font-size="13"
      id="text45"
-     style="font-size:13px;font-family:Roboto">6. Governments, Scientific Community, NGOs: develop <tspan
-   style="-inkscape-font-specification:'Roboto Bold';font-family:Roboto;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+     style="font-size:13px;font-family:Roboto">6. Governments, scientific community, NGOs: develop <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
    id="tspan3532"> rules to enable and accelerate research</tspan></text>
 <text
      transform="translate(272.7588,313)"
@@ -214,8 +215,8 @@
      transform="translate(33.48,348.5996)"
      font-size="13"
      id="text51"
-     style="font-size:13px;font-family:Roboto">7. Donors: Establish a <tspan
-   style="-inkscape-font-specification:'Roboto Bold';font-family:Roboto;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+     style="font-size:13px;font-family:Roboto">7. Donors: establish a <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
    id="tspan3536">global facility to finance, accelerate, and prioritise research</tspan> for drugs,</text>
 <text
      transform="translate(135.3081,348.5996)"
@@ -327,13 +328,15 @@
      transform="translate(472.6426,439.0186)"
      font-size="13"
      id="text107"
-     style="font-size:13px;font-family:Roboto"> </text>
+     style="font-size:13px;font-family:Roboto" />
 <text
      font-size="13"
      id="text109"
      style="font-size:13px;font-family:Roboto;text-align:end;text-anchor:end"
      x="885.25848"
-     y="459.01859">9. WHO: focus on its core functions </text>
+     y="459.01859">9. WHO: <tspan
+   style="-inkscape-font-specification:'Roboto Bold';font-family:Roboto;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="tspan3430"> focus on its core functions</tspan></text>
 <text
      transform="translate(559.3828,459.0186)"
      font-weight="700"
@@ -432,22 +435,24 @@
      clip-rule="evenodd"
      fill="#F59C00"
      d="M780.437,326.112  c10.438,0,19.626,3.124,24.802,7.805c-23.229,0.956-40.248,5.117-52.299,14.4c-1.137-1.761-1.752-3.658-1.752-5.637  C751.188,333.555,764.326,326.112,780.437,326.112L780.437,326.112z M790.964,299.207c0.431,2.277-0.657,4.563-1.865,6.671  c-25.065-15.485-50.8-18.427-74.615-17.234C727.545,271.658,784.956,267.691,790.964,299.207L790.964,299.207z M791.274,310.46  c0,3.897-1.327,7.595-3.712,10.928c-1.411-0.162-2.852-0.278-4.316-0.341c5.075-4.962,7.909-10.904,7.909-16.67  C791.155,306.445,791.274,308.403,791.274,310.46L791.274,310.46z M745.443,336.598c-20.289-1.551-36.118-12.693-36.118-26.141  c0-2.054,0.119-4.015,0.119-6.08c0,13.364,15.231,27.322,38.317,28.458C746.781,334.03,745.999,335.292,745.443,336.598  L745.443,336.598z M785.68,310.19c-7.006,6.765-20.247,11.353-35.383,11.353c-22.393,0-40.661-10.037-40.661-22.336  c0-1.898,0.437-3.742,1.249-5.503C741.778,292.264,766.4,298.522,785.68,310.19L785.68,310.19z M751.05,346.518  c0,29.516,58.78,30,58.78,0.003C812.4,382.08,747.553,380.263,751.05,346.518L751.05,346.518z M808.096,337.5  c1.166,1.782,1.591,3.175,1.591,5.181c0,9.125-13.14,16.567-29.25,16.567c-10.784,0-19.368-2.795-24.442-7.738  C770.263,343.84,786.038,340.109,808.096,337.5L808.096,337.5z"
-     id="path155" /><text
-     transform="translate(28,528)"
-     id="text157"><tspan
-       x="0"
-       y="0"
-       font-style="italic"
-       font-size="9"
-       id="tspan159"
-       style="font-style:italic;font-size:9px;font-family:Roboto">Source: Moon S, Sridhar D, Pate MA, et al. Will Ebola change the game? Ten essential reforms before the next pandemic. The report of the Harvard-LSHTM Independent Panel on the </tspan><tspan
-       x="0"
-       y="10.8"
-       font-style="italic"
-       font-size="9"
-       id="tspan161"
-       style="font-style:italic;font-size:9px;font-family:Roboto">Global Response to Ebola. Lancet. 2015 Nov 28;386 (10009):2204-21. http://www.ncbi.nlm.nih.gov/pubmed/26615326</tspan></text>
-<text
+     id="path155" /><a
+     id="a3432"
+     xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/26615326"><text
+       id="text157"
+       transform="translate(28,528)"><tspan
+         style="font-style:italic;font-size:9px;font-family:Roboto"
+         id="tspan159"
+         font-size="9"
+         font-style="italic"
+         y="0"
+         x="0">Source: Moon S, Sridhar D, Pate MA, et al. Will Ebola change the game? Ten essential reforms before the next pandemic. The report of the Harvard-LSHTM Independent Panel on the </tspan><tspan
+         style="font-style:italic;font-size:9px;font-family:Roboto"
+         id="tspan161"
+         font-size="9"
+         font-style="italic"
+         y="10.8"
+         x="0">Global Response to Ebola. Lancet. 2015 Nov 28;386 (10009):2204-21. http://www.ncbi.nlm.nih.gov/pubmed/26615326</tspan></text>
+</a><text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="466.10172"
@@ -457,7 +462,7 @@
        sodipodi:role="line"
        id="tspan3513"
        x="466.10172"
-       y="189.93645"></tspan></text>
+       y="189.93645" /></text>
 <text
      font-size="13"
      id="text25-9"

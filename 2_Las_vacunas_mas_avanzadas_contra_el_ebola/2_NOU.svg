@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="893px" height="480px" viewBox="0 0 893 480" enable-background="new 0 0 893 480" xml:space="preserve">
+	 width="893px" height="500px" viewBox="0 0 893 500" enable-background="new 0 0 893 500" xml:space="preserve">
 <rect y="158.213" opacity="0.4" fill="#D7AE1A" width="893" height="47.457"/>
 <rect x="23.277" y="-9.553" fill="none" width="438.723" height="43.341"/>
 <text transform="matrix(1 0 0 1 24.9585 38.7671)" fill="#1D1D1B" font-family="Roboto" font-weight="700" font-size="30">Las vacunas más avanzadas contra el ébola</text>
@@ -11,29 +11,29 @@
 <text transform="matrix(1 0 0 1 49 88.4155)" font-family="Roboto" font-weight="700" font-size="14">Nombre</text>
 <text transform="matrix(1 0 0 1 147.2065 88.4155)" font-family="Roboto" font-weight="700" font-size="14">Productor</text>
 <text transform="matrix(1 0 0 1 272.5171 88.7485)" font-family="Roboto" font-weight="700" font-size="14">Vehículo</text>
-<text transform="matrix(1 0 0 1 384.6978 82.3496)"><tspan x="0" y="0" font-family="Roboto" font-weight="700" font-size="14">Fase I</tspan><tspan x="0" y="16.8" font-family="Roboto" font-size="14">seguridad</tspan></text>
-<text transform="matrix(1 0 0 1 503.3164 71.6157)"><tspan x="0" y="0" font-family="Roboto" font-weight="700" font-size="14">Fase II</tspan><tspan x="0" y="16.8" font-family="Roboto" font-size="14">seguridad e </tspan><tspan x="0" y="33.6" font-family="Roboto" font-size="14">inmunogenicidad</tspan></text>
-<text transform="matrix(1 0 0 1 668 71.6157)"><tspan x="0" y="0" font-family="Roboto" font-weight="700" font-size="14">Fase III</tspan><tspan x="0" y="16.8" font-family="Roboto" font-size="14">inmunogenicidad </tspan><tspan x="0" y="33.6" font-family="Roboto" font-size="14">y eficacia</tspan></text>
+<text transform="matrix(1 0 0 1 384.6978 71.6157)"><tspan x="0" y="0" font-family="Roboto" font-weight="700" font-size="14">Fase I</tspan><tspan x="0" y="16.8" font-family="Roboto" font-size="10">(seguridad)</tspan></text>
+<text transform="matrix(1 0 0 1 503.3164 71.6157)"><tspan x="0" y="0" font-family="Roboto" font-weight="700" font-size="14">Fase II</tspan><tspan x="0" y="16.8" font-family="Roboto" font-size="10">(seguridad e </tspan><tspan x="0" y="30" font-family="Roboto" font-size="10">inmunogenicidad)</tspan></text>
+<text transform="matrix(1 0 0 1 668 71.6157)"><tspan x="0" y="0" font-family="Roboto" font-weight="700" font-size="14">Fase III</tspan><tspan x="0" y="16.8" font-family="Roboto" font-size="10">(inmunogenicidad </tspan><tspan x="0" y="30" font-family="Roboto" font-size="10">y eficacia)</tspan></text>
 <text transform="matrix(1 0 0 1 48.9995 137.4585)" font-family="Roboto" font-size="11">rVSV-ZEBOV</text>
 <text class="v1" transform="matrix(1 0 0 1 147.2061 130.8589)"><tspan x="0" y="0" font-family="Roboto" font-size="11">NewLink Genetics </tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">y Merck Vaccines</tspan></text>
 <text class="v1" transform="matrix(1 0 0 1 272.5166 130.8589)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Vector viral</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">replicativo</tspan></text>
-<text class="v1" transform="matrix(1 0 0 1 384.6968 130.8589)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completado</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">segura</tspan></text>
-<text class="v1" transform="matrix(1 0 0 1 503.3164 124.2588)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completado</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">Buena inmunogenicidad</tspan><tspan x="0" y="26.4" font-family="Roboto" font-size="11">Duración limitada?</tspan></text>
-<text class="v1" transform="matrix(1 0 0 1 668 124.2583)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Resultados preliminares para la eficacia</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">(estrategia de vacunación en anillo en </tspan><tspan x="0" y="26.4" font-family="Roboto" font-size="11">Guinea protegió a 100% de los individuos)</tspan></text>
+<text class="v1" transform="matrix(1 0 0 1 384.6968 130.8589)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completado</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">Segura</tspan></text>
+<text class="v1" transform="matrix(1 0 0 1 503.3164 124.2588)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completado</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">Buena inmunogenicidad</tspan><tspan x="0" y="26.4" font-family="Roboto" font-size="11">¿Duración limitada?</tspan></text>
+<text class="v1" transform="matrix(1 0 0 1 668 124.2583)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Resultados preliminares publicados</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">(estrategia de vacunación en anillo en </tspan><tspan x="0" y="26.4" font-family="Roboto" font-size="11">Guinea protegió a 100% de los individuos)</tspan></text>
 <text class="v2" transform="matrix(1 0 0 1 48.9995 185.4663)" font-family="Roboto" font-size="11">ChAd3-ZEBOV</text>
 <text class="v2" transform="matrix(1 0 0 1 147.2056 178.2661)"><tspan x="0" y="0" font-family="Roboto" font-size="11">GlaxoSmithKline </tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">and PHAC</tspan></text>
-<text class="v2" transform="matrix(1 0 0 1 272.5161 178.2661)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Vector viral     </tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">No replicativo</tspan></text>
-<text class="v2" transform="matrix(1 0 0 1 384.6963 178.5562)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completado</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">segura</tspan></text>
-<text class="v2" transform="matrix(1 0 0 1 503.3164 171.9561)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completado</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">Buena respuesta inmune</tspan><tspan x="0" y="26.4" font-family="Roboto" font-size="11">Mayor duración?</tspan></text>
-<text class="v2" transform="matrix(1 0 0 1 676 185.1563)" font-family="Roboto" font-size="11">Iniciado</text>
-<rect y="447.947" opacity="0.4" fill="#D7AE1A" width="893" height="4"/>
+<text class="v2" transform="matrix(1 0 0 1 272.5161 178.2661)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Vector viral     </tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">no replicativo</tspan></text>
+<text class="v2" transform="matrix(1 0 0 1 384.6963 178.5562)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completado</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">Segura</tspan></text>
+<text class="v2" transform="matrix(1 0 0 1 503.3164 171.9561)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completado</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">Buena respuesta inmune</tspan><tspan x="0" y="26.4" font-family="Roboto" font-size="11">¿Mayor duración?</tspan></text>
+<text class="v2" transform="matrix(1 0 0 1 668 185.1563)" font-family="Roboto" font-size="11">Iniciado</text>
+<rect y="480.947" opacity="0.4" fill="#D7AE1A" width="893" height="4"/>
 <rect y="347.309" opacity="0.4" fill="#D7AE1A" width="893" height="47.457"/>
 <rect y="253.352" opacity="0.4" fill="#D7AE1A" width="893" height="47.457"/>
 <text class="v3" transform="matrix(1 0 0 1 48.999 225.3481)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Ad26-EBOV </tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">+ MVA-EBOV</tspan></text>
 <text class="v3" transform="matrix(1 0 0 1 147.2061 225.3481)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Janssen y </tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">Bavarian Nordic</tspan></text>
-<text class="v3" transform="matrix(1 0 0 1 272.5176 225.6411)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Vector viral     </tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">No replicativo</tspan></text>
-<text class="v3" transform="matrix(1 0 0 1 384.6958 225.3481)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completado</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">segura</tspan></text>
-<text class="v3" transform="matrix(1 0 0 1 503.3164 218.1479)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Iniciado</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">Buena respuesta inmune</tspan><tspan x="0" y="26.401" font-family="Roboto" font-size="11">Mayor duración?</tspan></text>
+<text class="v3" transform="matrix(1 0 0 1 272.5176 225.6411)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Vector viral     </tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">no replicativo</tspan></text>
+<text class="v3" transform="matrix(1 0 0 1 384.6958 225.3481)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completado</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">Segura</tspan></text>
+<text class="v3" transform="matrix(1 0 0 1 503.3164 218.1479)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Iniciado</tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">Buena respuesta inmune</tspan><tspan x="0" y="26.401" font-family="Roboto" font-size="11">¿Mayor duración?</tspan></text>
 <text transform="matrix(1 0 0 1 676 232.2407)" font-family="Roboto" font-size="11">-</text>
 <text class="v4" transform="matrix(1 0 0 1 48.9985 273.6953)"><tspan x="0" y="0" font-family="Roboto" font-size="11">VesiculoVax</tspan><tspan x="0" y="13.199" font-family="Roboto" font-size="11">(VSV atenuado)</tspan></text>
 <text class="v4" transform="matrix(1 0 0 1 147.2051 273.6953)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Profectus </tspan><tspan x="0" y="13.199" font-family="Roboto" font-size="11">Biosciences Inc</tspan></text>
@@ -50,10 +50,18 @@
 <text class="v6" transform="matrix(1 0 0 1 48.9995 361.0508)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Proteína </tspan><tspan x="0" y="13.201" font-family="Roboto" font-size="11">recombinante </tspan><tspan x="0" y="26.4" font-family="Roboto" font-size="11">ébola</tspan></text>
 <text class="v6" transform="matrix(1 0 0 1 147.2061 374.252)" font-family="Roboto" font-size="11">Novavax</text>
 <text class="v6" transform="matrix(1 0 0 1 272.5171 374.252)" font-family="Roboto" font-size="11">Nanopartículas</text>
-<text class="v6" transform="matrix(1 0 0 1 384.6953 367.6523)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completado</tspan><tspan x="0" y="13.199" font-family="Roboto" font-size="11">segura</tspan></text>
+<text class="v6" transform="matrix(1 0 0 1 384.6953 367.6523)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Completado</tspan><tspan x="0" y="13.199" font-family="Roboto" font-size="11">Segura</tspan></text>
 <text class="v6" transform="matrix(1 0 0 1 503.3164 374.252)" font-family="Roboto" font-size="11">-</text>
 <text class="v6" transform="matrix(1 0 0 1 676 374.252)" font-family="Roboto" font-size="11">-</text>
 <rect x="51" y="404.947" fill="none" width="817" height="42"/>
-<text transform="matrix(1 0 0 1 51 413.1973)"><tspan x="0" y="0" font-family="Roboto" font-size="11">Otras vacunas contra el ébola, en fase preclínica de desarrollo (experimentación con modelos animales) han dado resultados alentadores. Algunos ejemplos son la </tspan><tspan x="0" y="13.2" font-family="Roboto" font-size="11">vacuna basada en el vector rAd5 para administración oral (VaxArt), la vacuna recombinante para la rabia (Jefferson University), la vacuna a base de partículas tipo </tspan><tspan x="0" y="26.4" font-family="Roboto" font-size="11">virales (Integrated Bio-therapeutics), vacunas de ADN (Inovia), etc.  </tspan></text>
-<text transform="matrix(1 0 0 1 24.9585 469.543)"><tspan x="0" y="0" font-family="Roboto" font-weight="300" font-style="italic" font-size="10">Fuente: Elaboración propia a partir de datos de la OMS </tspan><tspan x="234.946" y="0" fill="#36A9E1" font-family="Roboto" font-weight="300" font-style="italic" font-size="10">http://www.who.int/medicines/emp_ebola_q_as/en/</tspan></text>
+<text transform="matrix(1 0 0 1 51 413.1973)">
+	<tspan x="0" y="0" font-family="Roboto" font-size="11">Otras vacunas contra el ébola, en fase preclínica de desarrollo (experimentación con modelos animales) han dado resultados alentadores. Algunos ejemplos son la </tspan>
+	<tspan x="0" y="13.2" font-family="Roboto" font-size="11">vacuna basada en el vector rAd5 para administración oral (VaxArt), la vacuna recombinante para la rabia (Jefferson University), la vacuna a base de partículas tipo </tspan>
+	<tspan x="0" y="26.4" font-family="Roboto" font-size="11">virales (Integrated Bio-therapeutics), vacunas de ADN (Inovia), etc.  </tspan>
+</text>
+<text transform="matrix(1 0 0 1 51 460.1973)">
+	<tspan x="0" y="0" font-family="Roboto" font-size="11">Vector viral: un virus conocido, no peligroso, al que se introducen uno o varios genes que codifican para un antígeno contra el cual se quiere inmunizar. Hay vectores</tspan>
+	<tspan x="0" y="13.2" font-family="Roboto" font-size="11">virales replicativos (que se pueden replicar en la célula infectada) y no replicativos.</tspan>
+</text>
+<text transform="matrix(1 0 0 1 24.9585 495.543)"><tspan x="0" y="0" font-family="Roboto" font-weight="300" font-style="italic" font-size="10">Fuente: Elaboración propia a partir de datos de la OMS </tspan><tspan x="244.946" y="0" fill="#36A9E1" font-family="Roboto" font-weight="300" font-style="italic" font-size="10"><a xlink:href="http://www.who.int/medicines/emp_ebola_q_as/en/">http://www.who.int/medicines/emp_ebola_q_as/en/</a></tspan></text>
 </svg>

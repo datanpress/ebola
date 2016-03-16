@@ -1499,7 +1499,7 @@
 	<tspan x="126.23" y="0" fill="#008EAB" font-family="Roboto" font-weight="700" font-size="24">  </tspan>
 	<tspan x="0" y="22.8" font-family="Roboto" font-size="19" class="s3_t">sanitarios muertos</tspan>
 </text>
-<path class="s2" fill="#008EAB" d="M358.045,398.509l39.742-30.334c1.713-0.995,3.52-1.23,5.422-0.708c1.902,0.507,3.351,1.61,4.345,3.309
+<path class="s2" transform="matrix(1 0 0 1 15 0)" fill="#008EAB" d="M358.045,398.509l39.742-30.334c1.713-0.995,3.52-1.23,5.422-0.708c1.902,0.507,3.351,1.61,4.345,3.309
 	c0.995,1.711,1.231,3.519,0.709,5.422c-0.51,1.894-1.608,3.341-3.3,4.344l-2.188,1.088l9.896-4.072
 	c2.025-0.546,3.938-0.292,5.738,0.761c1.808,1.038,2.979,2.566,3.518,4.584c0.551,2.003,0.305,3.908-0.74,5.715
 	c-1.045,1.801-2.57,2.979-4.573,3.539l-38.304,7.883c0.654,0.407,1.256,0.912,1.807,1.513c0.256,0.268,0.482,0.544,0.676,0.828
@@ -2566,5 +2566,5 @@
 		<tspan x="100" y="24" font-family="Roboto" font-weight="700" font-size="20" class="s7_t1" text-anchor="middle">de pérdida en GDP para la región</tspan>
 	</text>
 </g>
-<text class="fuente" transform="matrix(1 0 0 1 22.8594 780.9043)" font-family="Roboto" font-size="10">Fuente: OMS, PNUD, http://www.africa.undp.org/content/dam/rba/docs/Reports/ebola-west-africa.pdf</text>
+<text class="fuente" transform="matrix(1 0 0 1 22.8594 780.9043)" font-family="Roboto" font-size="10">Fuente: OMS, PNUD,</text><text transform="matrix(1 0 0 1 117 780.9043)" fill="#36A9E1" font-family="Roboto" font-size="10"><a xlink:href="http://www.africa.undp.org/content/dam/rba/docs/Reports/ebola-west-africa.pdf">http://www.africa.undp.org/content/dam/rba/docs/Reports/ebola-west-africa.pdf</a></text>
 </svg>

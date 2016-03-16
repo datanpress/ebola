@@ -54,7 +54,7 @@ d3.xml("4_NOU.svg", "image/svg+xml", function(error, xml) {
   d3.select('.value.malaria.liberia').text(iJS._("2.900"));
   d3.select('.value.tuberculosis.liberia').text(iJS._("2.149"));
   d3.select('.value.ebola.liberia').text(iJS._("3.161"));
-  d3.select('.source').text(iJS._("Muertes por año, según las estimaciones más recientes de la OMS"));
+  d3.select('.source').text(iJS._("Muertes por año, según estimaciones de la OMS "));
 
   // d3.select('.Lcountry').text(iJS._("País:"));
   // d3.select('.Lcases').text(iJS._("Casos:"));

@@ -15,9 +15,9 @@
    x="0px"
    y="0px"
    width="893px"
-   height="470px"
-   viewBox="0 0 893 470"
-   enable-background="new 0 0 893 470"
+   height="490px"
+   viewBox="0 0 893 490"
+   enable-background="new 0 0 893 490"
    xml:space="preserve"
    inkscape:version="0.91 r13725"
    sodipodi:docname="4_NOU.svg"><metadata
@@ -2863,6 +2863,6 @@
            style="fill:#878787"
            points="757.429,102.359 772.245,108.411 757.429,114.465 760.945,108.411 "
            id="polygon1305-1" /></g></g></g>
-
-           <text class="source" transform="matrix(1 0 0 1 23.3062 465)" fill="#3C3C3B" font-family="Roboto" font-weight="300" font-style="italic" font-size="10">Muertes por año, según las estimaciones más recientes de la OMS</text>
+           <rect height="25" y="468" fill="#FFFFFF" x="230" width="800"></rect>
+           <text class="source" transform="matrix(1 0 0 1 23.3062 480)" fill="#3C3C3B" font-family="Roboto" font-weight="300" font-style="italic" font-size="10">Muertes por año, según las estimaciones más recientes de la OMS</text>
          </svg>
