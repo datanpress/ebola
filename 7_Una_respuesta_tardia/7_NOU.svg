@@ -2840,6 +2840,9 @@
 			<line fill="none" stroke="#F59C00" stroke-width="3" stroke-miterlimit="10" x1="126.815" y1="241.735" x2="111.854" y2="241.735"/>
 	</g>
 	<g>
+		<rect y="238" height="15" width="60" x="-32" fill="#FFFFFF" class="Guinea"></rect>
+		<rect y="254" height="15" width="60" x="-32" fill="#FFFFFF" class="Liberia"></rect>
+		<rect y="270" height="15" width="100" x="-32" fill="#FFFFFF" class="Sierra_Leone"></rect>
 		<text transform="matrix(1 0 0 1 -18.0762 249.8176)">
 			<tspan class="Guinea" x="0" y="0" fill="#5A5A5A" font-family="Roboto" font-weight="700" font-size="14">Guinea</tspan>
 			<tspan class="Liberia" x="0" y="16.8" fill="#5A5A5A" font-family="Roboto" font-weight="700" font-size="14">Liberia</tspan>
