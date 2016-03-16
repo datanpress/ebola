@@ -17,8 +17,7 @@ var data ={
     "species":"Zaire",
     "cases":iJS._("28.602"),
     "deaths":iJS._("11.301"),
-    "fatality_rate":iJS._("50%"),
-    "fatality_rate2":iJS._("(promedio de los 3 países)")
+    "fatality_rate":iJS._("50%")
   },
   "2014": {
     "year":"2014",

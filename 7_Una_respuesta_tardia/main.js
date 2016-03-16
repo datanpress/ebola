@@ -34,7 +34,7 @@ d3.xml("7_NOU.svg", "image/svg+xml", function(error, xml) {
   d3.select('.legend2').text(iJS._("Beds"))
   d3.select('.xaxis_legend1').text(iJS._("New infections per week"))
   d3.select('.xaxis_legend2').text(iJS._("Total number of beds"))
-  d3.select('.source').text(iJS._("Source: ODI http://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/9903.pdf"))
+  d3.select('.source').text(iJS._("Source: ODI"))
 
   d3.select('.mar_14').text(iJS._("Mar 14"))
   d3.select('.abr_14').text(iJS._("Abr 14"))

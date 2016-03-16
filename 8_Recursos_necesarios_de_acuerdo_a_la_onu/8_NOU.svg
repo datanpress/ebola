@@ -23,7 +23,7 @@
 <rect class="pendientes" x="611.999" y="71.759" opacity="0.4" fill="#F59C00" width="270.861" height="91.15"/>
 <text transform="matrix(1 0 0 1 16.8687 35)">
 	<tspan text-anchor="end" class="title" x="580" y="0" font-family="Roboto" font-weight="700" font-size="30">Recursos necesarios de acuerdo a la ONU: </tspan>
-	<tspan class="title2" x="575.656" y="0" fill="#F59C00" font-family="Roboto" font-weight="700" font-size="30">2.270</tspan>
+	<tspan class="title2" x="579" y="0" fill="#F59C00" font-family="Roboto" font-weight="700" font-size="30">2.270</tspan>
 </text>
 <rect y="549.899" fill="#00B0E9" width="590.641" height="421.948"/>
 

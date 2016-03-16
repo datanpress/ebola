@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-15 18:24+0100\n"
-"PO-Revision-Date: 2016-03-16 13:10+0100\n"
+"POT-Creation-Date: 2016-03-16 18:39+0100\n"
+"PO-Revision-Date: 2016-03-16 18:40+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -95,6 +95,8 @@ msgstr "SARS"
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:46
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:53
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:67
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:74
+#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:81
 msgid "Gotas saliva en aire"
 msgstr "Airborne respiratory droplets  "
 
@@ -138,11 +140,6 @@ msgstr "Measles"
 msgid "0,1-0,2%"
 msgstr "0.1-0.2%"
 
-#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:74
-#: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:81
-msgid "Aire"
-msgstr "Airborne respiratory droplets"
-
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:77
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:78
 msgid "Varicela"
@@ -177,7 +174,7 @@ msgid "Transmisión:"
 msgstr "Transmission:"
 
 #: 1_Una_enfermedad_letal_pero_poco_contagiosa/main.js:95
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:184
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:183
 msgid "Fuente: OMS, CDC"
 msgstr "Source: WHO, CDC"
 
@@ -209,52 +206,48 @@ msgstr "11,301"
 msgid "50%"
 msgstr "50%"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:21
-msgid "(promedio de los 3 países)"
-msgstr "(average for the 3 countries)"
-
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:42
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:41
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:72
 #: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:73
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:74
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:106
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:105
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:136
 #: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:137
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:138
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:144
 #: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:145
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:146
 msgid "Sudán"
 msgstr "Sudan"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:97
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:113
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:129
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:96
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:112
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:128
 msgid "Gabón"
 msgstr "Gabon"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:177
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:176
 msgid "Evolución histórica de los brotes de ébola"
 msgstr "Chronology of Ebola virus disease outbreaks"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:178
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:177
 msgid "Año:"
 msgstr "Year:"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:179
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:178
 msgid "País:"
 msgstr "Country:"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:180
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:179
 msgid "Casos:"
 msgstr "Cases:"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:181
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:180
 msgid "Muertes:"
 msgstr "Deaths:"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:182
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:181
 msgid "Especies:"
 msgstr "Species:"
 
-#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:183
+#: 3_Evolucion_historica_de_los_brotes_de_ebola/main.js:182
 msgid "Mortalidad:"
 msgstr "Case fatality rate:"
 
@@ -334,8 +327,8 @@ msgid "Tuberculosis"
 msgstr "Tuberculosis"
 
 #: 4_El_ebola_frente_a_otras_enfermedades_en_Africa/main.js:57
-msgid "Muertes por año, según las estimaciones más recientes de la OMS"
-msgstr "Deaths per year, according to the most recent estimates by WHO"
+msgid "Muertes por año, según estimaciones de la OMS "
+msgstr "Deaths per year according to WHO estimates   "
 
 #: 5_Donde_ha_golpeado_y_a_cuantos/main.js:18
 msgid "Dónde ha golpeado y a cuántos"
@@ -352,7 +345,7 @@ msgstr "*Only three people were infected outside Africa"
 
 #: 5_Donde_ha_golpeado_y_a_cuantos/main.js:26
 msgid "14.124"
-msgstr "14.124"
+msgstr "14,124"
 
 #: 5_Donde_ha_golpeado_y_a_cuantos/main.js:27
 msgid "3.956"
@@ -391,8 +384,8 @@ msgid "Las tres crisis del ébola"
 msgstr "The Three Ebola Crises"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:20
-msgid "víctimas directas*"
-msgstr "direct victims*"
+msgid "Víctimas directas"
+msgstr "Direct victims"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:21
 msgid "28.000 casos"
@@ -403,8 +396,8 @@ msgid "11.300 muertes"
 msgstr "11,300 deaths"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:24
-msgid "consecuencias en salud"
-msgstr "health consequences"
+msgid "Consecuencias en salud"
+msgstr "Health consequences"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:25
 msgid "más de 4.000 muertes"
@@ -419,8 +412,8 @@ msgid "más de 11.000 muertes"
 msgstr "more than 11,000 additional"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:29
-msgid "adicionales por malaria"
-msgstr "deaths by malaria"
+msgid "adicionales por malaria,"
+msgstr "deaths by malaria,"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:30
 msgid "tuberculosis y VIH"
@@ -435,7 +428,7 @@ msgid "sanitarios muertos"
 msgstr "healthcare workers died"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:35
-msgid "17.000 supervivientes"
+msgid "17.000 supervivientes "
 msgstr "17,000 survivors with potential "
 
 #: 6_Las_tres_crisis_del_ebola/main.js:36
@@ -443,8 +436,8 @@ msgid "con secuelas potenciales"
 msgstr "long-term health consequences"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:38
-msgid "consecuencias sociales y económicas"
-msgstr "social and economic consequences"
+msgid "Consecuencias sociales y económicas"
+msgstr "Social and economic consequences"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:39
 msgid "más de"
@@ -467,20 +460,16 @@ msgid "3.600 millones USD"
 msgstr "3,600 million USD"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:46
-msgid "de pérdida en GDP para la región"
+msgid "de pérdida en PIB para la región"
 msgstr "loss in GDP for the region"
 
 #: 6_Las_tres_crisis_del_ebola/main.js:48
-msgid ""
-"Fuente: OMS, PNUD, http://www.africa.undp.org/content/dam/rba/docs/Reports/"
-"ebola-west-africa.pdf"
-msgstr ""
-"Source: WHO, UNDP, http://www.africa.undp.org/content/dam/rba/docs/Reports/"
-"ebola-west-africa.pdf"
+msgid "Fuente: OMS, PNUD, "
+msgstr "Source: WHO, UNDP, "
 
 #: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:18
-msgid "Recursos necesarios de acuerdo a la ONU:"
-msgstr "Resources Needed According to UN:"
+msgid "Recursos necesarios de acuerdo a la ONU: "
+msgstr "Resources Needed According to UN: "
 
 #: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:19
 msgid "2.270"
@@ -555,6 +544,46 @@ msgstr "-Prevention and management of contagion risk"
 #: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:43
 msgid "Fuente: Financial Tracking Service de OCHA"
 msgstr "Source: OCHA Financial Tracking Service"
+
+#~ msgid "Recursos necesarios de acuerdo a la ONU:"
+#~ msgstr "Resources Needed According to UN:"
+
+#~ msgid "de pérdida en GDP para la región"
+#~ msgstr "loss in GDP for the region"
+
+#~ msgid ""
+#~ "Fuente: OMS, PNUD, http://www.africa.undp.org/content/dam/rba/docs/"
+#~ "Reports/ebola-west-africa.pdf"
+#~ msgstr ""
+#~ "Source: WHO, UNDP, http://www.africa.undp.org/content/dam/rba/docs/"
+#~ "Reports/ebola-west-africa.pdf"
+
+#~ msgid "17.000 supervivientes"
+#~ msgstr "17,000 survivors with potential"
+
+#~ msgid "adicionales por malaria"
+#~ msgstr "deaths by malaria"
+
+#~ msgid "consecuencias sociales y económicas"
+#~ msgstr "social and economic consequences"
+
+#~ msgid "consecuencias en salud"
+#~ msgstr "health consequences"
+
+#~ msgid "víctimas directas"
+#~ msgstr "direct victims"
+
+#~ msgid "víctimas directas*"
+#~ msgstr "direct victims*"
+
+#~ msgid "Aire"
+#~ msgstr "Airborne respiratory droplets"
+
+#~ msgid "(promedio de los 3 países)"
+#~ msgstr "(average for the 3 countries)"
+
+#~ msgid "Muertes por año, según las estimaciones más recientes de la OMS"
+#~ msgstr "Deaths per year, according to the most recent estimates by WHO"
 
 #~ msgid "*sólo hubo tres infectados fuera de áfrica"
 #~ msgstr "*only three people were infected outside"

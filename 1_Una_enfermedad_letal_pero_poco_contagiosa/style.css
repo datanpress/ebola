@@ -11,3 +11,14 @@ svg {
   width:100%;
   height:auto;
 }
+
+
+rect.active{
+  stroke-miterlimit:10;
+  stroke-width;2;
+  fill:#008EAB;
+  stroke:#F59C00;
+}
+text.active{
+  fill:#008EAB;
+}

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-03-15 17:30+0100\n"
-"PO-Revision-Date: 2016-03-15 17:31+0100\n"
+"POT-Creation-Date: 2016-03-16 18:37+0100\n"
+"PO-Revision-Date: 2016-03-16 18:37+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -36,12 +36,8 @@ msgid "Total number of beds"
 msgstr "Número total de camas"
 
 #: main.js:37
-msgid ""
-"Source: ODI http://www.odi.org/sites/odi.org.uk/files/odi-assets/"
-"publications-opinion-files/9903.pdf"
-msgstr ""
-"Fuente: ODI http://www.odi.org/sites/odi.org.uk/files/odi-assets/"
-"publications-opinion-files/9903.pdf"
+msgid "Source: ODI"
+msgstr "Fuente: ODI "
 
 #: main.js:39
 msgid "Mar 14"
@@ -98,3 +94,6 @@ msgstr ""
 #: main.js:52
 msgid "Abr 15"
 msgstr ""
+
+#~ msgid "Source: ODI http://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/9903.pdf"
+#~ msgstr "Fuente: ODI http://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/9903.pdf"

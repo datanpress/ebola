@@ -71,14 +71,14 @@ var data = {
     "VIRUS":iJS._("Sarampión"),
     "Letalidad":iJS._("0,1-0,2%"),
     "R0":"12-18",
-    "Transmisión":iJS._("Aire")
+    "Transmisión":iJS._("Gotas saliva en aire")
   },
   "varicela": {
     "name":iJS._("Varicela"),
     "VIRUS":iJS._("Varicela"),
     "Letalidad":iJS._("<0,001%"),
     "R0":"5-9",
-    "Transmisión":iJS._("Aire")
+    "Transmisión":iJS._("Gotas saliva en aire")
   }
 };
 
@@ -110,11 +110,13 @@ d3.xml("1b_copia.svg", "image/svg+xml", function(error, xml) {
   //END translate
 
   //select ebola
-  d3.select("rect.ebola").attr('stroke-miterlimit',10)
-    .attr('stroke-width',2)
-    .attr('fill',"#008EAB")
-    .attr('stroke',"#F59C00");
-  d3.select("text.ebola").attr('fill',"#008EAB");
+  // d3.select("rect.ebola").attr('stroke-miterlimit',10)
+  //   .attr('stroke-width',2)
+  //   .attr('fill',"#008EAB")
+  //   .attr('stroke',"#F59C00");
+  // d3.select("text.ebola").attr('fill',"#008EAB");
+  d3.select("rect.ebola").classed("active",true);
+  d3.select("text.ebola").classed("active",true);
   d3.select(".valueV").text(data['ebola']["VIRUS"])
   d3.select(".valueL").text(data['ebola']["Letalidad"])
   d3.select(".valueN").text(data['ebola']["R0"])
@@ -125,12 +127,16 @@ d3.xml("1b_copia.svg", "image/svg+xml", function(error, xml) {
 
   d3.selectAll(".hiv,.viruela,.mers,.sars,.influenza,.influenza_e,.polio,.sarampion,.varicela,.ebola").on("mouseover", function() {
     // console.log(d3.select(this).attr('class'));
+    d3.select("rect.active").classed("active",false)
+    d3.select("text.active").classed("active",false)
     var c = d3.select(this).attr('class')
-    d3.select("rect."+c).attr('stroke-miterlimit',10)
-      .attr('stroke-width',2)
-      .attr('fill',"#008EAB")
-      .attr('stroke',"#F59C00");
-    d3.select("text."+c).attr('fill',"#008EAB");
+    // d3.select("rect."+c).attr('stroke-miterlimit',10)
+    //   .attr('stroke-width',2)
+    //   .attr('fill',"#008EAB")
+    //   .attr('stroke',"#F59C00");
+    d3.select("rect."+c).classed("active",true)
+    // d3.select("text."+c).attr('fill',"#008EAB");
+    d3.select("text."+c).classed("active",true)
     // d3.selectAll("g."+c).selectAll('circle').style('fill',"red");
     // d3.selectAll("g."+c).selectAll('path').style('fill',"red");
     // var v= data[c];
@@ -144,19 +150,21 @@ d3.xml("1b_copia.svg", "image/svg+xml", function(error, xml) {
     console.log(data[c])
   });
       // console.log(data);
-  d3.selectAll(".hiv,.viruela,.mers,.sars,.influenza,.influenza_e,.polio,.sarampion,.varicela,.ebola").on("mouseout", function() {
-    var c = d3.select(this).attr('class')
-    d3.select("rect."+c).attr('stroke-miterlimit',null)
-      .attr('stroke-width',null)
-      .attr('fill','#F59C00')
-      .attr('stroke',null);
-    d3.select("text."+c).attr('fill',null);
-    d3.select(".valueV").text('')
-    d3.select(".valueL").text('')
-    d3.select(".valueN").text('')
-    d3.select(".valueT").text('')
-    d3.selectAll(".label").style("fill-opacity",0)
-    // d3.selectAll("g."+c).selectAll('circle').style('fill',"#00b0e9");
-    // d3.selectAll("g."+c).selectAll('path').style('fill',"#00b0e9");
-  })
+  // d3.selectAll(".hiv,.viruela,.mers,.sars,.influenza,.influenza_e,.polio,.sarampion,.varicela,.ebola").on("mouseout", function() {
+  //   var c = d3.select(this).attr('class')
+  //   // d3.select("rect."+c).attr('stroke-miterlimit',null)
+  //   //   .attr('stroke-width',null)
+  //   //   .attr('fill','#F59C00')
+  //   //   .attr('stroke',null);
+  //   // d3.select("text."+c).attr('fill',null);
+  //   d3.select("rect."+c).classed("active",false)
+  //   d3.select("text."+c).classed("active",false)
+  //   d3.select(".valueV").text('')
+  //   d3.select(".valueL").text('')
+  //   d3.select(".valueN").text('')
+  //   d3.select(".valueT").text('')
+  //   d3.selectAll(".label").style("fill-opacity",0)
+  //   // d3.selectAll("g."+c).selectAll('circle').style('fill',"#00b0e9");
+  //   // d3.selectAll("g."+c).selectAll('path').style('fill',"#00b0e9");
+  // })
 });
