@@ -63,28 +63,25 @@ d3.csv("data.csv", function(error, data) {
 	node.append('text')
 	.attr("x", function(d) { return d.dx / 2; })
 	.attr("y", function(d) { return d.dy / 2; })
+	// .attr("y", 10)
 	.attr("dy", ".35em")
+	.attr("class","country")
+	.attr("data-country", function(d){return d.name})
 	.attr("text-anchor", "middle")
   .text(function(d){console.log('d',d);return d.name})
+	.call(wrap, 1);
 
 	node.append('text')
 	.attr("x", function(d) { return d.dx / 2; })
-	.attr("y", function(d) { return 10 +(d.dy / 2); })
+	// .attr("y", function(d) { return 10 +(d.dy / 2); }).
+	.attr("y", function(d) {
+		var nelement = d3.selectAll('text.country[data-country="'+d.name+'"] tspan').size();
+		return nelement*11 +(d.dy / 2);
+	})
 	.attr("dy", ".35em")
 	.attr("text-anchor", "middle")
   .text(function(d){return d.size})
 
-  d3.selectAll("input").on("change", function change() {
-    var value = this.value === "count"
-        ? function() { return 1; }
-        : function(d) { return d.size; };
-
-    node
-        .data(treemap.value(value).nodes)
-      .transition()
-        .duration(1500)
-        .call(position);
-  });
 });
 
 function position() {
@@ -96,4 +93,36 @@ function position() {
   //    .style("top", function(d) { return d.y + "px"; })
   this.attr("width", function(d) { return Math.max(0, d.dx - 1) + "px"; })
       .attr("height", function(d) { return Math.max(0, d.dy - 1) + "px"; });
+}
+
+
+function wrap(text, width) {
+
+  text.each(function() {
+    var text = d3.select(this),
+				country = text.attr("data-country"),
+        words = text.text().split(/\s+/).reverse(),
+        word,
+        line = [],
+        lineNumber = 0,
+        lineHeight = 1.1, // ems
+        y = text.attr("y"),
+        dy = parseFloat(text.attr("dy")),
+				width = d3.select('rect[data-name="'+country+'"]').attr('width'),
+				x = text.attr('x'),
+        tspan = text.text(null).append("tspan").attr("x", x).attr("y", y).attr("dy", dy + "em");
+
+		console.log('country','[data-name='+country+']')
+		// console.log(d3.select('[data-name="'+country+'"]').attr('width'))
+    while (word = words.pop()) {
+      line.push(word);
+      tspan.text(line.join(" "));
+      if (tspan.node().getComputedTextLength() > width) {
+        line.pop();
+        tspan.text(line.join(" "));
+        line = [word];
+        tspan = text.append("tspan").attr("x", x).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+      }
+    }
+  });
 }
