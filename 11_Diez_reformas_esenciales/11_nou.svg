@@ -8,7 +8,7 @@
 <rect x="23.277" y="-3" fill="none" width="438.723" height="43.341"/>
 <text transform="matrix(1 0 0 1 33.48 80)" fill="#00B0E9" font-family="Roboto" font-weight="700" font-size="16">Prevención de brotes</text>
 <text transform="matrix(1 0 0 1 33.48 100)" font-family="Roboto" font-size="13">1. Comunidad global: </text>
-<text transform="matrix(1 0 0 1 162 100)" font-family="Roboto" font-weight="700" font-size="H13">garantizar la inversión doméstica</text>
+<text transform="matrix(1 0 0 1 162 100)" font-family="Roboto" font-weight="700" font-size="13">garantizar la inversión doméstica</text>
 <text transform="matrix(1 0 0 1 358 100)" font-family="Roboto" font-size="13"> para  construir capacidades</text>
 <text transform="matrix(1 0 0 1 33.48 120)" font-family="Roboto" font-size="13">2. OMS: promover la </text>
 <text transform="matrix(1 0 0 1 153.9443 120)" font-family="Roboto" font-weight="700" font-size="13">pronta comunicación de brotes y el intercambio de información</text>
@@ -29,7 +29,7 @@
 <text transform="matrix(1 0 0 1 33.48 328.5996)" font-family="Roboto" font-size="13">para acelerar la investigación y aumentar el acceso a sus beneficios </text>
 <text transform="matrix(1 0 0 1 33.48 348.5996)" font-family="Roboto" font-size="13">7. Financiadores: </text>
 <text transform="matrix(1 0 0 1 135.3081 348.5996)" font-family="Roboto" font-weight="700" font-size="13">establecer fondos para investigar y desarrollar medicamentos</text>
-<text transform="matrix(1 0 0 1 500.7705 348.5996)" font-family="Roboto" font-size="13">, vacunas y diagnósticos</text>
+<text transform="matrix(1 0 0 1 498.7705 348.5996)" font-family="Roboto" font-size="13">, vacunas y diagnósticos</text>
 <text transform="matrix(1 0 0 1 33.48 364.2002)" font-family="Roboto" font-size="13">que no responden al mercado  </text>
 <rect x="-5" y="396.5" opacity="0.4" fill="#008EAB" width="898" height="113.166"/>
 <g opacity="0.9">
@@ -236,7 +236,7 @@
 <text transform="matrix(1 0 0 1 266 479.0186)" font-family="Roboto" font-size="13">10. OMS: </text>
 <text transform="matrix(1 0 0 1 324 479.0186)" font-family="Roboto" font-weight="700" font-size="13">implementar reformas </text>
 <text transform="matrix(1 0 0 1 460 479.0186)" font-family="Roboto" font-size="13">para julio 2017 a cambio de</text>
-<text transform="matrix(1 0 0 1 623.8447 479.0186)" font-family="Roboto" font-weight="700" font-size="13">más recursos de los estados miembros</text>
+<text transform="matrix(1 0 0 1 625.8447 479.0186)" font-family="Roboto" font-weight="700" font-size="13">más recursos de los estados miembros</text>
 <g opacity="0.8">
 	<path fill="#F59C00" d="M743.632,59.66c-0.651-0.271-1.127-0.934-1.127-1.717c0-0.078,0.017-0.151,0.025-0.225h-4.549
 		c0.008,0.074,0.021,0.147,0.021,0.225c0,0.783-0.468,1.447-1.123,1.717c0.332,0.738,2,4.448,2.68,5.952
