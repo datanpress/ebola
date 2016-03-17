@@ -40,14 +40,15 @@ d3.csv("data.csv", function(error, data) {
   	new_data.children.push(groupChild);
   }
 
+	console.log(new_data);
   var node = div.datum(new_data).selectAll(".node")
       .data(treemap.nodes)
     .enter().append("g")
       .attr("class", "node")
       .attr("transform", function(d) {
-      	return "translate(" + d.x + "," + d.y + ")"; 
+      	return "translate(" + d.x + "," + d.y + ")";
       })
-      .text(function(d) { return d.children ? null : d.name; });
+      // .text(function(d) { return d.children ? null : d.name; });
 
   node.append('rect')
   	.attr("width", function(d) { return d.dx; })
@@ -58,6 +59,20 @@ d3.csv("data.csv", function(error, data) {
    	.style("fill-opacity", function(d) {
     	return d.children ? 0:1; })
     .attr('data-name', function(d){return d.name})
+
+	node.append('text')
+	.attr("x", function(d) { return d.dx / 2; })
+	.attr("y", function(d) { return d.dy / 2; })
+	.attr("dy", ".35em")
+	.attr("text-anchor", "middle")
+  .text(function(d){console.log('d',d);return d.name})
+
+	node.append('text')
+	.attr("x", function(d) { return d.dx / 2; })
+	.attr("y", function(d) { return 10 +(d.dy / 2); })
+	.attr("dy", ".35em")
+	.attr("text-anchor", "middle")
+  .text(function(d){return d.size})
 
   d3.selectAll("input").on("change", function change() {
     var value = this.value === "count"
