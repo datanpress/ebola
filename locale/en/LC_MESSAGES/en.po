@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-16 19:03+0100\n"
-"PO-Revision-Date: 2016-03-16 19:19+0100\n"
+"POT-Creation-Date: 2016-03-16 18:39+0100\n"
+"PO-Revision-Date: 2016-03-16 18:40+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -468,8 +468,8 @@ msgid "Fuente: OMS, PNUD, "
 msgstr "Source: WHO, UNDP, "
 
 #: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:18
-msgid "Recursos necesarios de acuerdo a la ONU:"
-msgstr "Resources Needed According to UN:"
+msgid "Recursos necesarios de acuerdo a la ONU: "
+msgstr "Resources Needed According to UN: "
 
 #: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:19
 msgid "2.270"
@@ -545,8 +545,8 @@ msgstr "-Prevention and management of contagion risk"
 msgid "Fuente: Financial Tracking Service de OCHA"
 msgstr "Source: OCHA Financial Tracking Service"
 
-#~ msgid "Recursos necesarios de acuerdo a la ONU: "
-#~ msgstr "Resources Needed According to UN: "
+#~ msgid "Recursos necesarios de acuerdo a la ONU:"
+#~ msgstr "Resources Needed According to UN:"
 
 #~ msgid "de pérdida en GDP para la región"
 #~ msgstr "loss in GDP for the region"
