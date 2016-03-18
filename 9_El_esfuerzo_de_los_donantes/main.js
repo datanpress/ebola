@@ -1,11 +1,57 @@
-var width=893;
-var height=380;
-var viewBox="0 0 893 380"
+var width=1200;
+var height=511;
+var viewBox="0 0 1200 511"
+var total = 0;
+
+var lang = getParameterByName('lang');
+if(lang!=null && lang!=""){
+  //set the locale in which the messages will be translated
+  iJS.i18n.setlocale(lang) ;
+  //add domain where to find messages data
+  iJS.i18n.bindtextdomain(lang, "../locale", "po") ;
+  //Always do this after a `setlocale` or a `bindtextdomain` call.
+  iJS.i18n.try_load_lang() ; //will load and parse messages data from the setting catalog.
+}
+
+d3.select('h1.title1').text(iJS._("Donor Contribution to the Fight against Ebola 1,555,121,694 US dollars"));
+iJS._("United States");
+iJS._("United Kingdom");
+iJS._("World Bank");
+iJS._("Germany");
+iJS._("Private***");
+iJS._("Private (individuals & organisations)");
+iJS._("Canada");
+iJS._("Japan");
+iJS._("Sweden");
+iJS._("African Development Bank");
+iJS._("Netherlands");
+iJS._("European Commission");
+iJS._("Carry-over*");
+iJS._("Carry-over (donors not specified)");
+iJS._("Norway");
+iJS._("Belgium");
+iJS._("Switzerland");
+iJS._("CERF**");
+iJS._("Central Emergency Response Fund (CERF)");
+iJS._("China");
+iJS._("Australia");
+iJS._("France");
+iJS._("Denmark");
+iJS._("Finland");
+iJS._("India");
+iJS._("Spain");
+iJS._("Israel");
+iJS._("Brazil");
+iJS._("Others");
+
 
 d3.select('body').append('svg')
-	.attr('width', width+"px")
-	.attr('height', height+"px")
+	// .attr('width', width+"px")
+	// .attr('height', height+"px")
+	.attr('width', "100%")
+	.attr('height', "100%")
 	.attr('viewBox', viewBox)
+
 
 var color = d3.scale.category20c();
 
@@ -16,31 +62,52 @@ var treemap = d3.layout.treemap()
     	return parseInt(d.size);
     });
 
-var div = d3.select("svg")
+var tip = d3.tip()
+	.attr('class', 'd3-tip')
+	// .offset([-10, 0])
+	.offset(function() {
+	  return [(this.getBBox().height / 2) - 10, 0]
+	})
+	.html(function(d) {
+		var v = numeral(d.size).format('0,0');
+		return "<div class='country'>" +iJS._(d.nameComplete) + "</div>\
+		<div><span class='label'>"+iJS._("Funding USD:")+" </span>" + v + "</div> \
+		<div><span class='label'>"+iJS._("% of Grand Total:")+" </span>"+ ((d.size/total)*100).toFixed(1) + "%</div>";
+	})
 
-d3.csv("data.csv", function(error, data) {
+var div = d3.select("svg")
+div.call(tip);
+
+d3.csv("data_ok.csv", function(error, data) {
   if (error) throw error;
   console.log(data);
   var new_data = {'name': "founds", 'children': []};
   var groups = {}
+
   data.forEach(function(c){
+		total = total + parseInt(c.FundingUSD);
   	if (!(c.Group in groups)){
   		groups[c.Group] = [];
+
   	}
   	groups[c.Group].push(c);
   })
+	console.log(total)
   for (var key in groups){
   	var groupChild = {'name':key, 'children':[]};
   	groups[key].forEach(function(c){
   		var new_c = {}
-  		new_c.name = c.Donor
+  		new_c.name = c.Donor;
   		new_c.size = parseInt(c['FundingUSD']);
+			new_c.css_class = c['css_class'];
+			new_c.nameComplete = c['DonorComplete'];
+			// console.log('c',c['css_class'])
   		groupChild.children.push(new_c)
   	});
   	new_data.children.push(groupChild);
   }
 
-	console.log(new_data);
+	console.log('new_data',new_data);
   var node = div.datum(new_data).selectAll(".node")
       .data(treemap.nodes)
     .enter().append("g")
@@ -54,11 +121,15 @@ d3.csv("data.csv", function(error, data) {
   	.attr("width", function(d) { return d.dx; })
     .attr("height", function(d) { return d.dy; })
     .attr('stroke', 'white')
-    .style("fill", function(d) {
-    	return d.children ? null : '#0079b9' })
+    // .style("fill", function(d) {
+    // 	return d.children ? null : '#0079b9' })
    	.style("fill-opacity", function(d) {
     	return d.children ? 0:1; })
     .attr('data-name', function(d){return d.name})
+		.attr("class", function(d) {
+    	return d.children ? null:d.css_class; })
+			.on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
 
 	node.append('text')
 	.attr("x", function(d) { return d.dx / 2; })
@@ -68,7 +139,9 @@ d3.csv("data.csv", function(error, data) {
 	.attr("class","country")
 	.attr("data-country", function(d){return d.name})
 	.attr("text-anchor", "middle")
-  .text(function(d){console.log('d',d);return d.name})
+  .text(function(d){return iJS._(d.name)})
+	.on('mouseover', tip.show)
+	.on('mouseout', tip.hide)
 	.call(wrap, 1);
 
 	node.append('text')
@@ -76,11 +149,13 @@ d3.csv("data.csv", function(error, data) {
 	// .attr("y", function(d) { return 10 +(d.dy / 2); }).
 	.attr("y", function(d) {
 		var nelement = d3.selectAll('text.country[data-country="'+d.name+'"] tspan').size();
-		return nelement*11 +(d.dy / 2);
+		return nelement*12 +(d.dy / 2);
 	})
 	.attr("dy", ".35em")
 	.attr("text-anchor", "middle")
-  .text(function(d){return d.size})
+	.on('mouseover', tip.show)
+	.on('mouseout', tip.hide)
+  .text(function(d){console.log(d.name, d.size, total);return ((d.size/total)*100).toFixed(1) + "%"})
 
 });
 

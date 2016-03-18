@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-03-16 18:37+0100\n"
-"PO-Revision-Date: 2016-03-16 18:37+0100\n"
+"POT-Creation-Date: 2016-03-18 10:15+0100\n"
+"PO-Revision-Date: 2016-03-18 10:23+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -10,90 +10,220 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.4\n"
-"X-Poedit-Basepath: ../../../7_Una_respuesta_tardia\n"
+"X-Poedit-Basepath: ../../..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: main.js\n"
+"X-Poedit-SearchPath-0: 7_Una_respuesta_tardia/main.js\n"
+"X-Poedit-SearchPath-1: 9_El_esfuerzo_de_los_donantes/main.js\n"
 
-#: main.js:32
+#: 7_Una_respuesta_tardia/main.js:32
 msgid "A Late Response"
 msgstr "Una respuesta tardía"
 
-#: main.js:33
+#: 7_Una_respuesta_tardia/main.js:33
 msgid "Confirmed new infections"
 msgstr "Nuevas infecciones confirmadas"
 
-#: main.js:34
+#: 7_Una_respuesta_tardia/main.js:34
 msgid "Beds"
 msgstr "Camas"
 
-#: main.js:35
+#: 7_Una_respuesta_tardia/main.js:35
 msgid "New infections per week"
 msgstr "Nuevas infecciones por semana"
 
-#: main.js:36
+#: 7_Una_respuesta_tardia/main.js:36
 msgid "Total number of beds"
 msgstr "Número total de camas"
 
-#: main.js:37
+#: 7_Una_respuesta_tardia/main.js:37
 msgid "Source: ODI"
 msgstr "Fuente: ODI "
 
-#: main.js:39
+#: 7_Una_respuesta_tardia/main.js:39
 msgid "Mar 14"
 msgstr ""
 
-#: main.js:40
+#: 7_Una_respuesta_tardia/main.js:40
 msgid "Abr 14"
 msgstr ""
 
-#: main.js:41
+#: 7_Una_respuesta_tardia/main.js:41
 msgid "May 14"
 msgstr ""
 
-#: main.js:42
+#: 7_Una_respuesta_tardia/main.js:42
 msgid "June 14"
 msgstr "Jun 14"
 
-#: main.js:43
+#: 7_Una_respuesta_tardia/main.js:43
 msgid "July 14"
 msgstr "Jul 14"
 
-#: main.js:44
+#: 7_Una_respuesta_tardia/main.js:44
 msgid "Aug 14"
 msgstr "Ago 14"
 
-#: main.js:45
+#: 7_Una_respuesta_tardia/main.js:45
 msgid "Sept 14"
 msgstr "Set 14"
 
-#: main.js:46
+#: 7_Una_respuesta_tardia/main.js:46
 msgid "Oct 14"
 msgstr "Oct 14"
 
-#: main.js:47
+#: 7_Una_respuesta_tardia/main.js:47
 msgid "Nov 14"
 msgstr ""
 
-#: main.js:48
+#: 7_Una_respuesta_tardia/main.js:48
 msgid "Dec 14"
 msgstr "Dic 14"
 
-#: main.js:49
+#: 7_Una_respuesta_tardia/main.js:49
 msgid "Jan 15"
 msgstr "Ene 15"
 
-#: main.js:50
+#: 7_Una_respuesta_tardia/main.js:50
 msgid "Feb 15"
 msgstr ""
 
-#: main.js:51
+#: 7_Una_respuesta_tardia/main.js:51
 msgid "Mar 15"
 msgstr ""
 
-#: main.js:52
+#: 7_Una_respuesta_tardia/main.js:52
 msgid "Abr 15"
 msgstr ""
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:16
+msgid "Donor Contribution to the Fight against Ebola 1,555,121,694 US dollars"
+msgstr "El esfuerzo de los donantes: 1.555.121.694$ dolares norteamericanos"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:17
+msgid "United States"
+msgstr "Estados Unidos"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:18
+msgid "United Kingdom"
+msgstr "Reino Unido"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:19
+msgid "World Bank"
+msgstr "Banco Mundial"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:20
+msgid "Germany"
+msgstr "Alemania"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:21
+msgid "Private***"
+msgstr "Privado***"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:22
+msgid "Private (individuals & organisations)"
+msgstr "Privados (individuos y organizaciones)"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:23
+msgid "Canada"
+msgstr "Canadá"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:24
+msgid "Japan"
+msgstr "Japón"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:25
+msgid "Sweden"
+msgstr "Suecia"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:26
+msgid "African Development Bank"
+msgstr "Banco Africano de Desarrollo"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:27
+msgid "Netherlands"
+msgstr "Países Bajos"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:28
+msgid "European Commission"
+msgstr "Comisión Europea"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:29
+msgid "Carry-over*"
+msgstr ""
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:30
+msgid "Carry-over (donors not specified)"
+msgstr "Carry-over (donantes no especificados)"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:31
+msgid "Norway"
+msgstr "Noruega"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:32
+msgid "Belgium"
+msgstr "Bélgica"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:33
+msgid "Switzerland"
+msgstr "Suiza"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:34
+msgid "CERF**"
+msgstr ""
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:35
+msgid "Central Emergency Response Fund (CERF)"
+msgstr ""
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:36
+msgid "China"
+msgstr ""
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:37
+msgid "Australia"
+msgstr "Australia"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:38
+msgid "France"
+msgstr "Francia"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:39
+msgid "Denmark"
+msgstr "Dinamarca"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:40
+msgid "Finland"
+msgstr "Finlandia"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:41
+msgid "India"
+msgstr ""
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:42
+msgid "Spain"
+msgstr "España"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:43
+msgid "Israel"
+msgstr ""
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:44
+msgid "Brazil"
+msgstr "Brasil"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:45
+msgid "Others"
+msgstr "Otros"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:72
+msgid "Funding USD:"
+msgstr "Donaciones USD:"
+
+#: 9_El_esfuerzo_de_los_donantes/main.js:73
+#, javascript-format
+msgid "% of Grand Total:"
+msgstr "% del gran total"
 
 #~ msgid "Source: ODI http://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/9903.pdf"
 #~ msgstr "Fuente: ODI http://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/9903.pdf"
