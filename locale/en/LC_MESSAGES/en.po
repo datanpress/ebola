@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-16 18:39+0100\n"
-"PO-Revision-Date: 2016-03-16 18:40+0100\n"
+"POT-Creation-Date: 2016-03-18 10:40+0100\n"
+"PO-Revision-Date: 2016-03-18 10:41+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -468,85 +468,89 @@ msgid "Fuente: OMS, PNUD, "
 msgstr "Source: WHO, UNDP, "
 
 #: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:18
-msgid "Recursos necesarios de acuerdo a la ONU: "
-msgstr "Resources Needed According to UN: "
+msgid "Hola"
+msgstr "Hello"
 
 #: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:19
+msgid "Recursos necesarios de acuerdo a la ONU:"
+msgstr "Necessary resources according to the UN:"
+
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:20
 msgid "2.270"
 msgstr "2,27"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:20
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:22
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:21
 #: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:23
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:24
 msgid "millones de dólares"
 msgstr "billion dollars"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:25
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:26
 msgid "Pendientes:"
 msgstr "Pending:"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:26
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:27
 msgid "710.000.000"
 msgstr "710,000,000"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:28
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:29
 msgid "Cubiertos:"
 msgstr "Paid:"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:29
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:30
 msgid "1.560.000.000"
 msgstr "1,560,000,000"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:31
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:32
 msgid "Servicios comunes"
 msgstr "Common services"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:32
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:33
 msgid "Frenar la enfermedad"
 msgstr "Stopping the outbreak"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:33
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:34
 msgid "-Seguimiento enfermos y entierros seguros"
 msgstr "-Tracing infected people and safe burials"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:34
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:35
 msgid "Atender a las víctimas"
 msgstr "Treating the infected"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:35
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:36
 msgid "-Atención a enfermos y profesionales"
 msgstr "-Medical care for patients and healthcare workers"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:36
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:37
 msgid "Sostener los sistemas de salud"
 msgstr "Supporting healthcare systems"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:37
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:38
 msgid "-Seguridad alimentaria, servicios básicos y recuperación económica"
 msgstr "-Food security, basic services, economic recovery"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:38
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:39
 msgid "Ofrecer estabilidad a los países afectados"
 msgstr "Preserving stability in affected countries"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:39
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:40
 msgid "-Materiales de transporte y movilización sociales"
 msgstr "-Materials supply, transport and social mobilisation"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:40
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:41
 msgid "Prevenir nuevos contagios"
 msgstr "Preventing new outbreaks"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:41
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:42
 msgid "-Prevención y gestión del riesgo de contagio"
 msgstr "-Prevention and management of contagion risk"
 
-#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:43
+#: 8_Recursos_necesarios_de_acuerdo_a_la_onu/main.js:44
 msgid "Fuente: Financial Tracking Service de OCHA"
 msgstr "Source: OCHA Financial Tracking Service"
 
-#~ msgid "Recursos necesarios de acuerdo a la ONU:"
-#~ msgstr "Resources Needed According to UN:"
+#~ msgid "Recursos necesarios de acuerdo a la ONU: "
+#~ msgstr "Resources Needed According to UN: "
 
 #~ msgid "de pérdida en GDP para la región"
 #~ msgstr "loss in GDP for the region"
