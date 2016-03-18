@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-03-18 10:15+0100\n"
-"PO-Revision-Date: 2016-03-18 10:23+0100\n"
+"POT-Creation-Date: 2016-03-18 11:13+0100\n"
+"PO-Revision-Date: 2016-03-18 11:13+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -97,8 +97,8 @@ msgid "Abr 15"
 msgstr ""
 
 #: 9_El_esfuerzo_de_los_donantes/main.js:16
-msgid "Donor Contribution to the Fight against Ebola 1,555,121,694 US dollars"
-msgstr "El esfuerzo de los donantes: 1.555.121.694$ dolares norteamericanos"
+msgid "Donor Contribution to the Fight against Ebola: 1,555,121,694 US dollars"
+msgstr "El esfuerzo de los donantes: 1.555.121.694 de dólares norteamericanos"
 
 #: 9_El_esfuerzo_de_los_donantes/main.js:17
 msgid "United States"
@@ -216,14 +216,17 @@ msgstr "Brasil"
 msgid "Others"
 msgstr "Otros"
 
-#: 9_El_esfuerzo_de_los_donantes/main.js:72
+#: 9_El_esfuerzo_de_los_donantes/main.js:74
 msgid "Funding USD:"
 msgstr "Donaciones USD:"
 
-#: 9_El_esfuerzo_de_los_donantes/main.js:73
+#: 9_El_esfuerzo_de_los_donantes/main.js:75
 #, javascript-format
 msgid "% of Grand Total:"
 msgstr "% del gran total"
+
+#~ msgid "Donor Contribution to the Fight against Ebola 1,555,121,694 US dollars"
+#~ msgstr "El esfuerzo de los donantes: 1.555.121.694$ dolares norteamericanos"
 
 #~ msgid "Source: ODI http://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/9903.pdf"
 #~ msgstr "Fuente: ODI http://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/9903.pdf"

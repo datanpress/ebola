@@ -4,6 +4,19 @@ var viewBox="0 0 1200 511"
 var total = 0;
 
 var lang = getParameterByName('lang');
+numeral.language('es', {
+    delimiters: {
+        thousands: '.',
+        decimal: ','
+    }
+});
+numeral.language('en', {
+    delimiters: {
+        thousands: ',',
+        decimal: '.'
+    }
+});
+numeral.language('en');
 if(lang!=null && lang!=""){
   //set the locale in which the messages will be translated
   iJS.i18n.setlocale(lang) ;
@@ -11,9 +24,15 @@ if(lang!=null && lang!=""){
   iJS.i18n.bindtextdomain(lang, "../locale", "po") ;
   //Always do this after a `setlocale` or a `bindtextdomain` call.
   iJS.i18n.try_load_lang() ; //will load and parse messages data from the setting catalog.
+  numeral.language('es');
 }
 
-d3.select('h1.title1').text(iJS._("Donor Contribution to the Fight against Ebola 1,555,121,694 US dollars"));
+
+//
+if( lang)
+numeral.language('es');
+
+d3.select('h1.title1').text(iJS._("Donor Contribution to the Fight against Ebola: 1,555,121,694 US dollars"));
 iJS._("United States");
 iJS._("United Kingdom");
 iJS._("World Bank");
@@ -70,9 +89,10 @@ var tip = d3.tip()
 	})
 	.html(function(d) {
 		var v = numeral(d.size).format('0,0');
+
 		return "<div class='country'>" +iJS._(d.nameComplete) + "</div>\
 		<div><span class='label'>"+iJS._("Funding USD:")+" </span>" + v + "</div> \
-		<div><span class='label'>"+iJS._("% of Grand Total:")+" </span>"+ ((d.size/total)*100).toFixed(1) + "%</div>";
+		<div><span class='label'>"+iJS._("% of Grand Total:")+" </span>"+ ((d.size/total)*100).toFixed(1)+ "%</div>";
 	})
 
 var div = d3.select("svg")
@@ -132,8 +152,8 @@ d3.csv("data_ok.csv", function(error, data) {
       .on('mouseout', tip.hide)
 
 	node.append('text')
-	.attr("x", function(d) { return d.dx / 2; })
-	.attr("y", function(d) { return d.dy / 2; })
+	.attr("x", function(d) { return (d.dx / 2) ; })
+	.attr("y", function(d) { return (d.dy / 2)- 10; })
 	// .attr("y", 10)
 	.attr("dy", ".35em")
 	.attr("class","country")
@@ -149,7 +169,7 @@ d3.csv("data_ok.csv", function(error, data) {
 	// .attr("y", function(d) { return 10 +(d.dy / 2); }).
 	.attr("y", function(d) {
 		var nelement = d3.selectAll('text.country[data-country="'+d.name+'"] tspan').size();
-		return nelement*12 +(d.dy / 2);
+		return (nelement*19 +(d.dy / 2))- 10;
 	})
 	.attr("dy", ".35em")
 	.attr("text-anchor", "middle")
