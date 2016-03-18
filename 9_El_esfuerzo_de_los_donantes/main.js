@@ -85,8 +85,20 @@ var tip = d3.tip()
 	.attr('class', 'd3-tip')
 	// .offset([-10, 0])
 	.offset(function() {
+    console.log(d3.select(this.parentNode).node().getBBox())
+    console.log(d3.transform(d3.select(this.parentNode).attr("transform")).translate[0])
 	  return [(this.getBBox().height / 2) - 10, 0]
 	})
+  .direction(function(d){
+    var current =d3.transform(d3.select(this.parentNode).attr("transform")).translate[0];
+    console.log(current,window.innerWidth)
+    if(current <= window.innerWidth/2){
+      return 'e'
+    }else{
+      return 'w'
+    }
+    console.log(d3.mouse(this))
+  })
 	.html(function(d) {
 		var v = numeral(d.size).format('0,0');
 
