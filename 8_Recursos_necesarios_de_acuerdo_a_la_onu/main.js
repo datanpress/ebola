@@ -15,6 +15,7 @@ d3.xml("8_NOU.svg", "image/svg+xml", function(error, xml) {
   if (error) throw error;
   document.body.appendChild(xml.documentElement);
   //translate
+  d3.select('.title').text(iJS._("Hola"));
   d3.select('.title').text(iJS._("Recursos necesarios de acuerdo a la ONU:"));
   d3.select('.title2').text(iJS._("2.270"));
   d3.select('.title3').text(iJS._("millones de dólares"));
