@@ -1,0 +1,45 @@
+svg{
+  font-family:Roboto;
+  font-size:10;
+}
+
+svg text{
+  font-size:10px;
+  fill:#fff;
+}
+body{
+  /*text-align: center;*/
+  font-family:Roboto;
+}
+h1{
+  font-family: Roboto;
+  font-size:30
+}
+
+
+rect.country{
+  fill:#00B0E9;
+}
+rect.international{
+  fill:#AF9959;
+}
+rect.private{
+  fill:#F59C00;
+}
+
+.d3-tip{-
+  webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border:1px solid #000000;
+  background-color:#FFFFFF;
+  padding:5px;
+  font-size: 13px;
+}
+.d3-tip .country{
+  font-weight:700;
+  font-size: 15px;
+}
+.d3-tip .label{
+  font-weight:700;
+}
